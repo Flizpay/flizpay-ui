@@ -14,8 +14,8 @@ export default defineConfig({
     // Library entry points
     lib: {
       entry: resolve(__dirname, "lib/main.ts"),
-      name: "flizpay-u",
-      fileName: "flizpay-u",
+      name: "@flizpay/ui",
+      fileName: "@flizpay/ui",
     },
     // Bundler oprtions
     rollupOptions: {
