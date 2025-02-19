@@ -22,8 +22,7 @@
     "prebuild": "rm -rf dist",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "prepublish": "npm run build && npm publish"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.7",
