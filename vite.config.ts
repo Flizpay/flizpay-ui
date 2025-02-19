@@ -4,12 +4,18 @@ import { fileURLToPath } from "node:url";
 import { dirname, resolve } from "node:path";
 import tsconfigPaths from "vite-tsconfig-paths";
 import tailwindcss from "@tailwindcss/vite";
+import dts from "vite-plugin-dts";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(), tsconfigPaths(), tailwindcss()],
+  plugins: [
+    react(),
+    tsconfigPaths(),
+    tailwindcss(),
+    dts({ tsconfigPath: "./tsconfig.app.json", rollupTypes: true }),
+  ],
   build: {
     // Library entry points
     lib: {
