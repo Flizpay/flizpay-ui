@@ -1,5 +1,5 @@
 {
-  "name": "@flizpay/ui",
+  "name": "flizpay-ui",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,12 +8,14 @@
     "lib/styles/index.css",
     "lib/assets/images"
   ],
-  "main": "./dist/@flizpay/ui.umd.cjs",
-  "module": "./dist/@flizpay/ui.js",
+  "main": "./dist/flizpay-ui.umd.cjs",
+  "module": "./dist/flizpay-ui.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/@flizpay/ui.js",
-      "require": "./dist/@flizpay/ui.umd.cjs"
+      "import": "./dist/flizpay-ui.js",
+      "types": "./dist/index.d.ts",
+      "require": "./dist/flizpay-ui.umd.cjs"
     },
     "./index.css": "./lib/styles/index.css"
   },

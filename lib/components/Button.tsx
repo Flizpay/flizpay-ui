@@ -1,6 +1,6 @@
 import { forwardRef, ComponentPropsWithoutRef } from "react";
 
-const Button = forwardRef<
+export const Button = forwardRef<
   HTMLButtonElement,
   ComponentPropsWithoutRef<"button">
 >(({ children, ...props }, ref) => {
@@ -11,5 +11,3 @@ const Button = forwardRef<
   );
 });
 Button.displayName = "Button";
-
-export { Button };

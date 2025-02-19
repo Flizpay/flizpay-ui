@@ -7,16 +7,20 @@
     "module": "ESNext",
     "skipLibCheck": true,
     "paths": {
-      "@flizpay/ui": ["./lib/main.ts"]
+      "flizpay-ui": ["./lib/main.ts"]
     },
+    "emitDeclarationOnly": false,
+    "declaration": true,
+    "declarationMap": true,
+    "outDir": "./dist",
 
     /* Bundler mode */
-    "moduleResolution": "bundler",
+    "moduleResolution": "node",
     "allowImportingTsExtensions": true,
     "isolatedModules": true,
     "moduleDetection": "force",
     "noEmit": true,
-    "jsx": "react-jsx",
+    "jsx": "preserve",
 
     /* Linting */
     "strict": true,
@@ -25,5 +29,5 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["src"]
+  "include": ["src", "lib"]
 }

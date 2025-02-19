@@ -14,14 +14,18 @@ export default defineConfig({
     react(),
     tsconfigPaths(),
     tailwindcss(),
-    dts({ tsconfigPath: "./tsconfig.app.json", rollupTypes: true }),
+    dts({
+      tsconfigPath: "./tsconfig.app.json",
+      rollupTypes: true,
+      insertTypesEntry: true,
+    }),
   ],
   build: {
     // Library entry points
     lib: {
       entry: resolve(__dirname, "lib/main.ts"),
-      name: "@flizpay/ui",
-      fileName: "@flizpay/ui",
+      name: "flizpay-ui",
+      fileName: "flizpay-ui",
     },
     // Bundler oprtions
     rollupOptions: {

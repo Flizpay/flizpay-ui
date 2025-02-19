@@ -1,4 +1,4 @@
-import { Button } from "@flizpay/ui";
+import { Button } from "flizpay-ui";
 
 function App() {
   return (
