@@ -3,7 +3,6 @@ import react from "@vitejs/plugin-react";
 import { fileURLToPath } from "node:url";
 import { dirname, resolve } from "node:path";
 import tsconfigPaths from "vite-tsconfig-paths";
-import tailwindcss from "@tailwindcss/vite";
 import dts from "vite-plugin-dts";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -13,7 +12,6 @@ export default defineConfig({
   plugins: [
     react(),
     tsconfigPaths(),
-    tailwindcss(),
     dts({
       tsconfigPath: "./tsconfig.app.json",
       rollupTypes: true,
@@ -24,8 +22,8 @@ export default defineConfig({
     // Library entry points
     lib: {
       entry: resolve(__dirname, "lib/main.ts"),
-      name: "flizpay-ui",
-      fileName: "flizpay-ui",
+      name: "@flizpay-de/ui",
+      fileName: "@flizpay-de/ui",
     },
     // Bundler oprtions
     rollupOptions: {
