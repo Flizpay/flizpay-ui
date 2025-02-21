@@ -1,7 +1,7 @@
 {
   "name": "@flizpay-de/ui",
   "private": false,
-  "version": "0.0.3",
+  "version": "0.0.5",
   "type": "module",
   "files": [
     "dist",
@@ -15,6 +15,10 @@
       "import": "./dist/@flizpay-de/ui.js",
       "types": "./dist/index.d.ts",
       "require": "./dist/@flizpay-de/ui.umd.cjs"
+    },
+    "./tailwind-base": {
+      "import": "./lib/tailwind-base.js",
+      "require": "./lib/tailwind-base.js"
     }
   },
   "scripts": {
