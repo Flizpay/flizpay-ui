@@ -1,8 +1,5 @@
 import { useState } from "react";
-import { FaqJson, FAQProps, Language } from "../types";
-
-import * as enFile from "../../../locales/en/shoppers/faq/faq.paying.json";
-import * as deFile from "../../../locales/de/shoppers/faq/faq.paying.json";
+import { FaqJson, FAQProps, Language, ShopperTopic } from "../types";
 import {
   Accordion,
   AccordionContent,
@@ -12,14 +9,31 @@ import {
 import { cn } from "../../../utils/cn";
 import { motion } from "framer-motion";
 
-const data: Record<Language, FaqJson> = {
-  en: enFile as FaqJson,
-  de: deFile as FaqJson,
+// en
+import * as enPayingFAQ from "../../../locales/en/shoppers/faq/faq.paying.json";
+import * as enCashbackFAQ from "../../../locales/en/shoppers/faq/faq.cashback.json";
+import * as enSecurityFAQ from "../../../locales/en/shoppers/faq/faq.security.json";
+// de
+import * as dePayingFAQ from "../../../locales/de/shoppers/faq/faq.paying.json";
+import * as deCashbackFAQ from "../../../locales/de/shoppers/faq/faq.cashback.json";
+import * as deSecurityFAQ from "../../../locales/de/shoppers/faq/faq.security.json";
+
+const DATA: Record<Language, Record<ShopperTopic, FaqJson>> = {
+  en: {
+    paying: enPayingFAQ as FaqJson,
+    cashback: enCashbackFAQ as FaqJson,
+    security: enSecurityFAQ as FaqJson,
+  },
+  de: {
+    paying: dePayingFAQ as FaqJson,
+    cashback: deCashbackFAQ as FaqJson,
+    security: deSecurityFAQ as FaqJson,
+  },
 } as const;
 
-export function PayingFAQ({ language, className }: FAQProps) {
+export function ShopperFAQ({ language, className, topic }: FAQProps) {
   const [openItem, setOpenItem] = useState<string | null>(null);
-  const { question, answer } = data[language];
+  const { question, answer } = DATA[language][topic];
 
   const keys = Object.keys(question) as (keyof typeof question)[];
   const questions = keys.map((k) => question[k]);
@@ -27,7 +41,9 @@ export function PayingFAQ({ language, className }: FAQProps) {
 
   return (
     <div className="flex w-full items-start flex-col">
-      <h1 className="text-lg font-bold">{data[language].title}</h1>
+      <h1 className="text-lg font-bold border-solid border-b w-full py-4">
+        {DATA[language][topic].title}
+      </h1>
       <Accordion
         type="single"
         collapsible

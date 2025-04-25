@@ -1,6 +1,7 @@
 export interface FAQProps {
   className?: string;
   language: Language;
+  topic: ShopperTopic;
 }
 
 export interface FaqJson<Keys extends string = string> {
@@ -10,3 +11,5 @@ export interface FaqJson<Keys extends string = string> {
 }
 
 export type Language = "en" | "de";
+
+export type ShopperTopic = "paying" | "cashback" | "security";
