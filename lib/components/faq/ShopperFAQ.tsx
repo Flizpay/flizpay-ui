@@ -10,13 +10,13 @@ import { cn } from "../../utils/cn";
 import { motion } from "framer-motion";
 
 // en
-import * as enPayingFAQ from "../../locales/en/shoppers/faq/faq.paying.json";
-import * as enCashbackFAQ from "../../locales/en/shoppers/faq/faq.cashback.json";
-import * as enSecurityFAQ from "../../locales/en/shoppers/faq/faq.security.json";
+import * as enPayingFAQ from "@locales/en/shoppers/faq/faq.paying.json";
+import * as enCashbackFAQ from "@locales/en/shoppers/faq/faq.cashback.json";
+import * as enSecurityFAQ from "@locales/en/shoppers/faq/faq.security.json";
 // de
-import * as dePayingFAQ from "../../locales/de/shoppers/faq/faq.paying.json";
-import * as deCashbackFAQ from "../../locales/de/shoppers/faq/faq.cashback.json";
-import * as deSecurityFAQ from "../../locales/de/shoppers/faq/faq.security.json";
+import * as dePayingFAQ from "@locales/de/shoppers/faq/faq.paying.json";
+import * as deCashbackFAQ from "@locales/de/shoppers/faq/faq.cashback.json";
+import * as deSecurityFAQ from "@locales/de/shoppers/faq/faq.security.json";
 
 const DATA: Record<string, Record<ShopperTopic, FaqJson>> = {
   en: {
