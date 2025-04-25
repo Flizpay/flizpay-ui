@@ -1,24 +1,24 @@
 import { useState } from "react";
-import { FaqJson, FAQProps, Language, ShopperTopic } from "../types";
+import { FaqJson, ShopperFAQProps, ShopperTopic } from "./types";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "../../Accordion";
-import { cn } from "../../../utils/cn";
+} from "../Accordion";
+import { cn } from "../../utils/cn";
 import { motion } from "framer-motion";
 
 // en
-import * as enPayingFAQ from "../../../locales/en/shoppers/faq/faq.paying.json";
-import * as enCashbackFAQ from "../../../locales/en/shoppers/faq/faq.cashback.json";
-import * as enSecurityFAQ from "../../../locales/en/shoppers/faq/faq.security.json";
+import * as enPayingFAQ from "../../locales/en/shoppers/faq/faq.paying.json";
+import * as enCashbackFAQ from "../../locales/en/shoppers/faq/faq.cashback.json";
+import * as enSecurityFAQ from "../../locales/en/shoppers/faq/faq.security.json";
 // de
-import * as dePayingFAQ from "../../../locales/de/shoppers/faq/faq.paying.json";
-import * as deCashbackFAQ from "../../../locales/de/shoppers/faq/faq.cashback.json";
-import * as deSecurityFAQ from "../../../locales/de/shoppers/faq/faq.security.json";
+import * as dePayingFAQ from "../../locales/de/shoppers/faq/faq.paying.json";
+import * as deCashbackFAQ from "../../locales/de/shoppers/faq/faq.cashback.json";
+import * as deSecurityFAQ from "../../locales/de/shoppers/faq/faq.security.json";
 
-const DATA: Record<Language, Record<ShopperTopic, FaqJson>> = {
+const DATA: Record<string, Record<ShopperTopic, FaqJson>> = {
   en: {
     paying: enPayingFAQ as FaqJson,
     cashback: enCashbackFAQ as FaqJson,
@@ -31,7 +31,7 @@ const DATA: Record<Language, Record<ShopperTopic, FaqJson>> = {
   },
 } as const;
 
-export function ShopperFAQ({ language, className, topic }: FAQProps) {
+export function ShopperFAQ({ language, className, topic }: ShopperFAQProps) {
   const [openItem, setOpenItem] = useState<string | null>(null);
   const { question, answer } = DATA[language][topic];
 
