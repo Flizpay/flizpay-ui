@@ -1,0 +1,17 @@
+{
+  "title": "Getting Started",
+  "question": {
+    "1": "How do I integrate/install FLIZ?",
+    "2": "Do I need to change my current payment provider",
+    "3": "How can I test FLIZpay?",
+    "4": "Is there are minimum contract period?",
+    "5": "How does cashback work?"
+  },
+  "answer": {
+    "1": "There is no easier way to start accepting payments. You need no technical knowledge with our plugins. FLIZ has ready-to-use integrations with e-commerce platforms and a standardized API for custom integration (for the latter, see more on our page for developers). Create your company account and follow the steps to install FLIZ. You can receive your first payment in less than one hour.",
+    "2": "No, you don't need to change your current payment provider. FLIZ is a standalone, fee-free payment method that complements your existing payment options without necessarily replacing them. If you wish to continue offering payment methods that charge fees, you can keep your current setup as is. However, to optimize savings for everyone, we recommend featuring FLIZ as the first choice for your customers.",
+    "3": "We currently don’t offer a dedicated test version. However, FLIZpay can be installed in any staging environment. For in-person payments, you can simply install the FLIZpay app and link it to your company account. No matter where you use it, payments are always processed for real. For accounting purposes, we recommend adding a private IBAN to your FLIZpay company account and then making a small test payment - like one cent - from a private FLIZpay account via the app. Just remember to use a personal FLIZpay account to pay, because you can’t make payments with a FLIZpay company account.",
+    "4": "No, there is no contract or commitment period. FLIZ is free and you can start anytime. Regardless of your transaction volume, you can install FLIZpay at any time - and uninstall it whenever you want. Payments are credited individually and instantly to your existing bank account, so there are no limitations.",
+    "5": "Cashback is deducted from purchases that your customers make with FLIZ. This feature is optional. If you choose to offer cashback, you can define the amount in your company account. You are free to choose how much cashback you give, and you can activate and deactivate the cashback feature whenever you like from your company account. Currently, cashback is only available for WooCommerce shops."
+  }
+}

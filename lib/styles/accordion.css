@@ -1,0 +1,25 @@
+@keyframes accordion-down {
+  from {
+    height: 0;
+  }
+  to {
+    height: var(--radix-accordion-content-height);
+  }
+}
+@keyframes accordion-up {
+  from {
+    height: var(--radix-accordion-content-height);
+  }
+  to {
+    height: 0;
+  }
+}
+
+.radix-accordion-content[data-state="open"] {
+  overflow: hidden;
+  animation: accordion-down 0.25s ease-out both;
+}
+.radix-accordion-content[data-state="closed"] {
+  overflow: hidden;
+  animation: accordion-up 0.25s ease-out both;
+}

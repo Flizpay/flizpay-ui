@@ -1,0 +1,11 @@
+{
+  "title": "Cashback",
+  "question": {
+    "1": "How do FLIZ discounts work?",
+    "2": "What fees are associated with FLIZ?"
+  },
+  "answer": {
+    "1": "Companies save money on payment fees with FLIZ. They share these savings with you as discounts. When you see a FLIZ discount at a checkout, you pay less. The discount is taken off your total.",
+    "2": "FLIZ is free."
+  }
+}

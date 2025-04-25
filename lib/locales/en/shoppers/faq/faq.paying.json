@@ -1,0 +1,21 @@
+{
+  "title": "Paying with FLIZ",
+  "question": {
+    "1": "How do payments with FLIZpay work?",
+    "2": "What's the difference between the app and the web version?",
+    "3": "Which payment methods are accepted with FLIZ?",
+    "4": "Why do FLIZ payments work differently for some users?",
+    "5": "I can’t find my bank?!",
+    "6": "My payment failed because my limit was reached. What now?",
+    "7": "What is FLIZpay’s relationship with DaoPay?"
+  },
+  "answer": {
+    "1": "You link your bank account in our app so payments can be made directly from your account in the background. When you’re ready to pay, you either click a link (such as a payment button) to open the FLIZpay app automatically, or scan a QR code with your smartphone or directly in the FLIZpay app. From there, the payment process works exactly the same in both cases. After you confirm the payment in the app, FLIZpay triggers a SEPA transfer directly from your bank account in the background.",
+    "2": "Our app is the most convenient way to pay, and the one-time onboarding process is just as quick as in the web version. However, if you’d prefer not to jump right in, we also offer a web version for your first payment.",
+    "3": "FLIZ itself is the payment method. Therefore, there are no other methods with FLIZ.",
+    "4": "Just like with card payments, the FLIZ payment process can vary because each bank (and even within the same bank) may verify transactions in different ways. It depends on the verification methods your bank offers and which one you choose — such as using an app confirmation or photo TAN. So even at the same bank, a FLIZ transaction might be authorized differently. You’ll find FLIZ payments simplest when using your bank’s app.",
+    "5": "We’re connected to all German banks as well as other popular banks in Germany, like Revolut. Here’s a quick tip: The list of banks is longer than it looks at first glance - use the search function to find yours.",
+    "6": "You choose your per-transaction/daily limit with your bank. If you need a higher limit, please change it with your bank for the account you use to pay with FLIZ (e.g. through your bank’s app).",
+    "7": "Depending on the bank, digital certificates from DaoPay GmbH may be involved in the payment. DaoPay GmbH is a payment service provider licensed in Austria. As a result, you may sometimes see the name “DaoPay GmbH” displayed by your bank. DaoPay is not involved in the technical payment processing and does not receive any order details, login data, balances or your transaction history."
+  }
+}

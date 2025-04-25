@@ -1,3 +1,4 @@
+import { PayingFAQ } from "../lib/components/faq/shoppers/PayingFAQ";
 import "./index.css";
 
 import { Button } from "@flizpay-de/ui";
@@ -6,6 +7,9 @@ function App() {
   return (
     <div className="container mx-auto">
       <h1>FLIZpay UI library</h1>
+      <section className="flex flex-col space-y-4 bg-texture rounded-4xl p-4">
+        <PayingFAQ language="de" />
+      </section>
       <section className="flex flex-col space-y-4 bg-texture rounded-4xl p-4">
         <h3 className="text-white">Buttons</h3>
         <Button className="bg-neon-80 text-white p-2">neon 80</Button>

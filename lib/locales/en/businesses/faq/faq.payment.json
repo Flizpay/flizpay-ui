@@ -1,0 +1,19 @@
+{
+  "title": "Payments with FLIZ",
+  "question": {
+    "1": "How do payments with FLIZpay work?",
+    "2": "Is FLIZ available for in-person payments?",
+    "3": "Do Instant SEPA transfers have anything to do with SEPA direct debits?",
+    "4": "What do consumers need in order to use FLIZpay?",
+    "5": "Can I pay with FLIZ as a company?",
+    "6": "How do chargebacks work?"
+  },
+  "answer": {
+    "1": "Customers can either click a payment link (e.g., a “Pay Now” button) that directs them to the FLIZpay app or scan a QR code with their smartphone - from within the FLIZpay app or a separate scanning tool. The payment process then follows the same steps in both scenarios. If a customer has not yet installed FLIZpay, the system automatically detects this and guides them through a quick, one-minute onboarding. Once they confirm the payment, FLIZpay initiates an Instant SEPA transfer from the customer’s bank account in the background. The funds go directly to the company’s linked bank account - FLIZpay never holds or processes the money itself. Until October 2025, a small number of banks may not support Instant SEPA transfers. In such cases, FLIZpay simply falls back on a standard SEPA transfer.",
+    "2": "Yes. Once you sign up for a company account, you can use our app to accept in-person payments. You can also assign sub-accounts to employees, enabling them to accept FLIZ payments and receive payment confirmations on their phones. But that’s not all - our QR codes can also be used in printed form.",
+    "3": "No. Instant SEPA transfers are very fast bank transfers handled through the Single Euro Payments Area (SEPA) network. SEPA direct debits, on the other hand, also run through this network but are initiated by the receiving party - giving payers an eight-week window to request a refund. Since Instant SEPA transfers are triggered by the paying party, there’s no refund option.",
+    "4": "They simply sign up in the FLIZpay app and connect their existing bank account (all German banks and popular foreign banks are supported). No extra card or topping up the app is necessary.",
+    "5": "FLIZ is currently designed for payments by private customers. A dedicated solution for business-to-business payments may be added in the future.",
+    "6": "Currently, FLIZpay does not offer chargebacks."
+  }
+}
