@@ -1,9 +1,6 @@
-import { useState } from "react";
-import { BusinessFAQ } from "../lib/components/faq/BusinessFAQ";
-import { ShopperFAQ } from "../lib/components/faq/ShopperFAQ";
 import "./index.css";
-
-import { Button } from "@flizpay-de/ui";
+import { useState } from "react";
+import { Button, BusinessFAQ, ShopperFAQ } from "@flizpay-de/ui";
 import { cn } from "../lib/utils/cn";
 
 function App() {
