@@ -1,25 +1,28 @@
-@keyframes accordion-down {
-  from {
-    height: 0;
-  }
-  to {
-    height: var(--radix-accordion-content-height);
-  }
-}
-@keyframes accordion-up {
-  from {
-    height: var(--radix-accordion-content-height);
-  }
-  to {
-    height: 0;
-  }
-}
+@tailwind base;
 
-.radix-accordion-content[data-state="open"] {
-  overflow: hidden;
-  animation: accordion-down 0.25s ease-out both;
-}
-.radix-accordion-content[data-state="closed"] {
-  overflow: hidden;
-  animation: accordion-up 0.25s ease-out both;
+/* Anything you extend must live inside a layer or Tailwind will purge it */
+@layer base {
+  @keyframes accordion-down {
+    from {
+      height: 0;
+    }
+    to {
+      height: var(--radix-accordion-content-height);
+    }
+  }
+  @keyframes accordion-up {
+    from {
+      height: var(--radix-accordion-content-height);
+    }
+    to {
+      height: 0;
+    }
+  }
+
+  .animate-accordion-down {
+    animation: accordion-down 0.2s ease-out;
+  }
+  .animate-accordion-up {
+    animation: accordion-up 0.2s ease-out;
+  }
 }
