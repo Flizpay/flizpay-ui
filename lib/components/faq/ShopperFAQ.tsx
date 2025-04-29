@@ -7,7 +7,6 @@ import {
   AccordionTrigger,
 } from "../Accordion";
 import { cn } from "../../utils/cn";
-import { motion } from "framer-motion";
 
 // en
 import * as enPayingFAQ from "@locales/en/shoppers/faq/faq.paying.json";
@@ -58,12 +57,7 @@ export function ShopperFAQ({ language, className, topic }: ShopperFAQProps) {
       >
         {questions.map((_item, index) => {
           return (
-            <motion.div
-              key={`faq-${topic}-${index}`}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-            >
+            <div key={`faq-${topic}-${index}`}>
               <AccordionItem value={`item-${index}`} className={cn(className)}>
                 <AccordionTrigger className="group text-start text-lg font-medium">
                   <div className="flex items-center gap-2">
@@ -74,7 +68,7 @@ export function ShopperFAQ({ language, className, topic }: ShopperFAQProps) {
                   {answers[index]}
                 </AccordionContent>
               </AccordionItem>
-            </motion.div>
+            </div>
           );
         })}
       </Accordion>
