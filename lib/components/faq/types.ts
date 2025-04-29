@@ -10,6 +10,10 @@ export interface BusinessFAQProps extends FAQProps {
   topic: BusinessTopic;
 }
 
+/**
++ * Interface for FAQ JSON file structure.
++ * @template Keys - The keys for question and answer records
++ */
 export interface FaqJson<Keys extends string = string> {
   title: string;
   question: Record<Keys, string>;

@@ -40,7 +40,11 @@ export function ShopperFAQ({ language, className, topic }: ShopperFAQProps) {
   const answers = keys.map((k) => answer[k]);
 
   return (
-    <div className="flex w-full items-start flex-col">
+    <div
+      className="flex w-full items-start flex-col"
+      role="region"
+      aria-label={`${topic} FAQ`}
+    >
       <h1 className="text-lg font-bold border-solid border-b w-full py-4">
         {DATA[language][topic].title}
       </h1>
@@ -50,11 +54,12 @@ export function ShopperFAQ({ language, className, topic }: ShopperFAQProps) {
         className="w-full"
         value={openItem}
         onValueChange={setOpenItem}
+        aria-label={`${topic} frequently asked questions`}
       >
         {questions.map((_item, index) => {
           return (
             <motion.div
-              key={index}
+              key={`faq-${topic}-${index}`}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
@@ -63,7 +68,6 @@ export function ShopperFAQ({ language, className, topic }: ShopperFAQProps) {
                 <AccordionTrigger className="group text-start text-lg font-medium">
                   <div className="flex items-center gap-2">
                     <span>{questions[index]}</span>
-                    <a className="hidden p-1 group-hover:inline"></a>
                   </div>
                 </AccordionTrigger>
                 <AccordionContent className="overflow-hidden text-gray-500 text-start">

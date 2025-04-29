@@ -3,6 +3,10 @@ import * as AccordionPrimitive from "@radix-ui/react-accordion";
 import { ChevronDown } from "lucide-react";
 import { cn } from "../utils/cn";
 
+/**
++ * Root accordion component that wraps all accordion items.
++ * @see https://www.radix-ui.com/primitives/docs/components/accordion
++ */
 const Accordion = AccordionPrimitive.Root;
 
 const AccordionItem = React.forwardRef<
