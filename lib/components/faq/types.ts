@@ -5,9 +5,11 @@ interface FAQProps {
 
 export interface ShopperFAQProps extends FAQProps {
   topic: ShopperTopic;
+  titleClassName?: string;
 }
 export interface BusinessFAQProps extends FAQProps {
   topic: BusinessTopic;
+  titleClassName?: string;
 }
 
 /**
