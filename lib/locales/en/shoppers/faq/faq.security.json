@@ -1,0 +1,17 @@
+{
+  "title": "Security & Login/Sign Up",
+  "question": {
+    "1": "Why are my bank login details needed?",
+    "2": "Are my online banking login details available to FLIZ (username and PIN)?",
+    "3": "Why do I need to provide my IBAN?",
+    "4": "Why does FLIZpay need “access” to my bank account?",
+    "5": "Is it safe to use FLIZ?"
+  },
+  "answer": {
+    "1": "When you use FLIZpay to make payments, transactions are initiated directly from your bank account with your permission, using regulated banking interfaces (APIs) within the EU. However, each bank decides how its verification process works. For example, DKB, Sparkasse, and Volksbank require you to verify your identity using your login details beforehand. By contrast, ING and Revolut allow the transaction data to be ‘transferred’ straight to their banking app on your smartphone, where you can simply confirm the payment. Therefore, you may not always need to use your login details — this depends on how your bank has set up its security infrastructure.",
+    "2": "No. We don’t store your login details in any FLIZ environment, such as our servers or our app. Your online banking details are securely stored on your personal device, ensuring that your data remains private and under your control at all times. They are never shared with or accessible to FLIZpay GmbH, its employees, or any third parties. To process transactions, FLIZ securely verifies your access rights with your bank using end-to-end encryption. This means that even during the transaction process, your login details remain completely hidden from FLIZ.",
+    "3": "For some banks, we ask for your IBAN because otherwise we don’t have it. We need your IBAN so you can receive payments — for example, from friends who also use FLIZpay.",
+    "4": "The connection to your bank account is used solely to enable FLIZpay payments — with your permission. Some banks use rather dramatic language when establishing this connection. For example, they may refer to “confirming the use of online banking features,” “account access,” or “retrieving transaction data for third parties.” FLIZpay has no control over the wording used by banks. However, we can confirm that when connecting to your bank, the only information retrieved is which accounts you hold there — so we know which IBAN to use for your payments. We do not see your balances or transaction history. So neither FLIZpay nor our partners have general “access to your account” or “retrieve your transaction data”. P.S. If your bank mentions the name DaoPay, please refer to the separate FAQ on that topic.",
+    "5": "Security is of utmost importance in all financial matters, which is why we developed FLIZ to be one of the safest payment systems available. Ultimately, FLIZ payments are just as safe as your SEPA credit transfers. Furthermore, transactions regularly require a second authentication factor with your bank, which makes them even safer than SEPA credit transfers."
+  }
+}

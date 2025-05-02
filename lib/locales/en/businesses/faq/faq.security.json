@@ -1,0 +1,13 @@
+{
+  "title": "Security",
+  "question": {
+    "1": "How secure is FLIZ?",
+    "2": "What is FLIZpay’s relationship with DaoPay?",
+    "3": "What happens if FLIZpay becomes insolvent?"
+  },
+  "answer": {
+    "1": "Security is of utmost importance in all financial matters, which is why we developed FLIZ to be one of the safest payment systems available. When using FLIZ, your customers utilize their bank's standard online banking procedures in the background. All data transmission occurs through fully encrypted connections, ensuring the highest level of security.",
+    "2": "Depending on the bank, digital certificates from DaoPay GmbH may be involved in the payment. DaoPay GmbH is a payment service provider licensed in Austria. As a result, payers may sometimes see the name “DaoPay GmbH” displayed by their bank. DaoPay is not involved in the technical payment processing and does not receive any order details, login data, balances or your transaction history.",
+    "3": "While FLIZpay would no longer be available, all previous payments would already have been processed in real time. This means there’s no risk for businesses or consumers."
+  }
+}

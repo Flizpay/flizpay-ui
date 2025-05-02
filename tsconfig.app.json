@@ -8,7 +8,8 @@
     "skipLibCheck": true,
     "allowJs": true,
     "paths": {
-      "@flizpay-de/ui": ["./lib/main.ts"]
+      "@flizpay-de/ui": ["./lib/main.ts"],
+      "@locales/*": ["./lib/locales/*"]
     },
     "emitDeclarationOnly": false,
     "declaration": true,
@@ -17,6 +18,7 @@
 
     /* Bundler mode */
     "moduleResolution": "node",
+    "resolveJsonModule": true,
     "allowImportingTsExtensions": true,
     "isolatedModules": true,
     "moduleDetection": "force",
