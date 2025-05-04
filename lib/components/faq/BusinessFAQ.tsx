@@ -35,7 +35,12 @@ const DATA: Record<string, Record<BusinessTopic, FaqJson>> = {
   },
 } as const;
 
-export function BusinessFAQ({ language, className, topic }: BusinessFAQProps) {
+export function BusinessFAQ({
+  language,
+  className,
+  titleClassName,
+  topic,
+}: BusinessFAQProps) {
   const [openItem, setOpenItem] = useState<string | null>(null);
   const { question, answer } = DATA[language][topic];
 
@@ -49,7 +54,12 @@ export function BusinessFAQ({ language, className, topic }: BusinessFAQProps) {
       role="region"
       aria-label={`${topic} FAQ`}
     >
-      <h1 className="text-lg font-bold border-solid border-b w-full py-4">
+      <h1
+        className={cn(
+          "text-lg font-bold border-solid border-b w-full py-4",
+          titleClassName
+        )}
+      >
         {DATA[language][topic].title}
       </h1>
       <Accordion
