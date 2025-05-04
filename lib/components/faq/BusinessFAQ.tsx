@@ -40,10 +40,11 @@ export function BusinessFAQ({
   className,
   titleClassName,
   topic,
+  value,
+  registerRef,
 }: BusinessFAQProps) {
   const [openItem, setOpenItem] = useState<string | null>(null);
   const { question, answer } = DATA[language][topic];
-
   const keys = Object.keys(question) as (keyof typeof question)[];
   const questions = keys.map((k) => question[k]);
   const answers = keys.map((k) => answer[k]);
@@ -66,14 +67,18 @@ export function BusinessFAQ({
         type="single"
         collapsible
         className="w-full"
-        value={openItem}
+        value={openItem || value}
         onValueChange={setOpenItem}
         aria-label={`${topic} frequently asked questions`}
       >
         {questions.map((_item, index) => {
+          const hashId = `business-faq-${topic}-${[index + 1]}`
+            .replace(/ /g, "-")
+            .toLowerCase();
+
           return (
-            <div key={`faq-${topic}-${index}`}>
-              <AccordionItem value={`item-${index}`} className={cn(className)}>
+            <div key={`faq-${topic}-${index}`} ref={registerRef?.(hashId)}>
+              <AccordionItem value={hashId} className={cn(className)}>
                 <AccordionTrigger className="group text-start text-lg font-medium">
                   <div className="flex items-center gap-2">
                     <span>{questions[index]}</span>
