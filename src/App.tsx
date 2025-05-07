@@ -6,6 +6,7 @@ import {
   ShopperFAQ,
   BusinessTermsAndConditions,
   ShopperTermsAndConditions,
+  PrivacyPolicy,
 } from "@flizpay-de/ui";
 import { cn } from "../lib/utils/cn";
 
@@ -56,6 +57,10 @@ function App() {
           </button>
         </div>
       </div>
+      <section className="flex flex-col space-y-4 bg-texture rounded-4xl">
+        <h1 className="text-2xl font-medium text-green-400">Privacy Policy</h1>
+        <PrivacyPolicy language={language as "en" | "de"} />
+      </section>
       <section className="flex flex-col space-y-4 bg-texture rounded-4xl">
         <h1 className="text-2xl font-medium text-green-400">
           Businesses Terms and Conditions
