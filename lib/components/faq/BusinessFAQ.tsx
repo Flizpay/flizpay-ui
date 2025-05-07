@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { BusinessFAQProps, BusinessTopic, FaqJson } from "./types";
 import {
   Accordion,
@@ -41,9 +40,9 @@ export function BusinessFAQ({
   titleClassName,
   topic,
   value,
+  onValueChange,
   registerRef,
 }: BusinessFAQProps) {
-  const [openItem, setOpenItem] = useState<string | null>(null);
   const { question, answer } = DATA[language][topic];
   const keys = Object.keys(question) as (keyof typeof question)[];
   const questions = keys.map((k) => question[k]);
@@ -67,8 +66,8 @@ export function BusinessFAQ({
         type="single"
         collapsible
         className="w-full"
-        value={openItem || value}
-        onValueChange={setOpenItem}
+        value={value}
+        onValueChange={onValueChange}
         aria-label={`${topic} frequently asked questions`}
       >
         {questions.map((_item, index) => {
