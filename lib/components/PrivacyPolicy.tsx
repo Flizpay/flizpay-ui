@@ -1,6 +1,7 @@
 import { cn } from "../utils/cn";
 import * as enPrivacyPolicy from "@locales/en/shared/privacy-policy.json";
 import * as dePrivacyPolicy from "@locales/de/shared/privacy-policy.json";
+import { replaceLinks } from "../utils/links";
 
 const DATA = {
   en: enPrivacyPolicy,
@@ -8,17 +9,6 @@ const DATA = {
 } as const;
 
 type Language = keyof typeof DATA; // "en" | "de"
-
-const LINKS = {
-  goneo: "https://www.goneo.de/hilfe_kontakt/datenschutz.html",
-  bfdi: "https://www.bfdi.bund.de/DE/Service/Anschriften/Laender/Laender-node.htm",
-  sentry: "https://sentry.io/privacy/",
-  amazon: "https://aws.amazon.com/de/privacy/",
-  linkedinOne: "https://www.linkedin.com/legal/privacy-policy?_l=de_DE",
-  linkedinTwo:
-    "https://www.linkedin.com/psettings/guest-controls/retargeting-opt-out",
-  fliz: "https://flizpay.de/privacy-policy",
-} as const;
 
 interface PrivacyPolicyProps {
   language: Language;
@@ -31,81 +21,12 @@ export function PrivacyPolicy({
   className,
   containerClassName,
 }: PrivacyPolicyProps) {
-  const tc =
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    (DATA[language] as unknown as { default?: any }).default ?? DATA[language];
-
   const isGerman = language === "de";
-
-  function replaceLinks(text: string): string {
-    return text
-      .replace(
-        isGerman ? /\[bfdiLink: hier]/g : /\[bfdiLink: here]/g,
-        `<a href="${
-          LINKS.bfdi
-        }" target="_blank" rel="noopener noreferrer" class="font-semibold underline text-[#111827]">${
-          isGerman ? "hier" : "here"
-        }</a>`
-      )
-      .replace(
-        isGerman
-          ? /\[goneoLink: Datenschutzerklärung]/g
-          : /\[goneoLink: privacy policy]/g,
-        `<a href="${
-          LINKS.goneo
-        }" target="_blank" rel="noopener noreferrer" class="font-semibold underline text-[#111827]">${
-          isGerman ? "Datenschutzerklärung" : "privacy policy"
-        }</a>`
-      )
-      .replace(
-        isGerman
-          ? /\[sentryLink: Datenschutzerklärung]/g
-          : /\[sentryLink: privacy policy]/g,
-        `<a href="${
-          LINKS.sentry
-        }" target="_blank" rel="noopener noreferrer" class="font-semibold underline text-[#111827]">${
-          isGerman ? "Datenschutzerklärung" : "privacy policy"
-        }</a>`
-      )
-      .replace(
-        isGerman
-          ? /\[amazonLink: Datenschutzerklärung]/g
-          : /\[amazonLink: privacy policy]/g,
-        `<a href="${
-          LINKS.amazon
-        }" target="_blank" rel="noopener noreferrer" class="font-semibold underline text-[#111827]">${
-          isGerman ? "Datenschutzerklärung" : "privacy policy"
-        }</a>`
-      )
-      .replace(
-        isGerman ? /\[flizLink: hier]/g : /\[flizLink: here]/g,
-        `<a href="${
-          LINKS.fliz
-        }" target="_blank" rel="noopener noreferrer" class="font-semibold underline text-[#111827]">${
-          isGerman ? "hier" : "here"
-        }</a>`
-      )
-      .replace(
-        isGerman ? /\[linkedinLinkOne: hier]/g : /\[linkedinLinkOne: here]/g,
-        `<a href="${
-          LINKS.linkedinOne
-        }" target="_blank" rel="noopener noreferrer" class="font-semibold underline text-[#111827]">${
-          isGerman ? "hier" : "here"
-        }</a>`
-      )
-      .replace(
-        isGerman
-          ? /\[linkedinLinkTwo: Einstellungen für Werbeanzeigen]/g
-          : /\[linkedinLinkTwo: settings for advertisements]/g,
-        `<a href="${
-          LINKS.linkedinTwo
-        }" target="_blank" rel="noopener noreferrer" class="font-semibold underline text-[#111827]">${
-          isGerman
-            ? "Einstellungen für Werbeanzeigen"
-            : "settings for advertisements"
-        }</a>`
-      );
-  }
+  const tc =
+    "default" in DATA[language]
+      ? (DATA[language] as unknown as { default: (typeof DATA)[Language] })
+          .default
+      : DATA[language];
 
   return (
     <div className={cn(containerClassName)}>
@@ -180,7 +101,9 @@ export function PrivacyPolicy({
           {orderedValues(tc.rights.bottomText).map((txt, i) => (
             <p
               key={i}
-              dangerouslySetInnerHTML={{ __html: replaceLinks(txt) }}
+              dangerouslySetInnerHTML={{
+                __html: replaceLinks({ text: txt, isGerman }),
+              }}
             />
           ))}
         </Section>
@@ -261,7 +184,9 @@ export function PrivacyPolicy({
             i === 0 ? (
               <p
                 key={i}
-                dangerouslySetInnerHTML={{ __html: replaceLinks(txt) }}
+                dangerouslySetInnerHTML={{
+                  __html: replaceLinks({ text: txt, isGerman }),
+                }}
               />
             ) : (
               <p key={i}>{txt}</p>
@@ -294,7 +219,9 @@ export function PrivacyPolicy({
             i === 3 ? (
               <p
                 key={i}
-                dangerouslySetInnerHTML={{ __html: replaceLinks(txt) }}
+                dangerouslySetInnerHTML={{
+                  __html: replaceLinks({ text: txt, isGerman }),
+                }}
               />
             ) : (
               <p key={i}>{txt}</p>
@@ -315,7 +242,9 @@ export function PrivacyPolicy({
             i === 0 ? (
               <p
                 key={i}
-                dangerouslySetInnerHTML={{ __html: replaceLinks(txt) }}
+                dangerouslySetInnerHTML={{
+                  __html: replaceLinks({ text: txt, isGerman }),
+                }}
               />
             ) : (
               <p key={i}>{txt}</p>
@@ -378,7 +307,9 @@ export function PrivacyPolicy({
             i === 0 ? (
               <p
                 key={i}
-                dangerouslySetInnerHTML={{ __html: replaceLinks(txt) }}
+                dangerouslySetInnerHTML={{
+                  __html: replaceLinks({ text: txt, isGerman }),
+                }}
               />
             ) : (
               <p key={i}>{txt}</p>
@@ -392,7 +323,9 @@ export function PrivacyPolicy({
             i === 0 ? (
               <p
                 key={i}
-                dangerouslySetInnerHTML={{ __html: replaceLinks(txt) }}
+                dangerouslySetInnerHTML={{
+                  __html: replaceLinks({ text: txt, isGerman }),
+                }}
               />
             ) : (
               <p key={i}>{txt}</p>
