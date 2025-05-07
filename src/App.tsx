@@ -56,24 +56,28 @@ function App() {
           language={language}
           topic="security"
           value={openItem}
+          onValueChange={setOpenItem}
           registerRef={registerRef}
         />
         <BusinessFAQ
           language={language}
           topic="general"
           value={openItem}
+          onValueChange={setOpenItem}
           registerRef={registerRef}
         />
         <BusinessFAQ
           language={language}
           topic="instructions"
           value={openItem}
+          onValueChange={setOpenItem}
           registerRef={registerRef}
         />
         <BusinessFAQ
           language={language}
           topic="payment"
           value={openItem}
+          onValueChange={setOpenItem}
           registerRef={registerRef}
         />
       </section>
@@ -83,18 +87,21 @@ function App() {
           language={language}
           topic="security"
           value={openItem}
+          onValueChange={setOpenItem}
           registerRef={registerRef}
         />
         <ShopperFAQ
           language={language}
           topic="cashback"
           value={openItem}
+          onValueChange={setOpenItem}
           registerRef={registerRef}
         />
         <ShopperFAQ
           language={language}
           topic="paying"
           value={openItem}
+          onValueChange={setOpenItem}
           registerRef={registerRef}
         />
       </section>

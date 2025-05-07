@@ -7,12 +7,14 @@ export interface ShopperFAQProps extends FAQProps {
   topic: ShopperTopic;
   titleClassName?: string;
   value?: string;
+  onValueChange: React.Dispatch<React.SetStateAction<string | undefined>>;
   registerRef?: (id: string) => (node: HTMLElement | null) => void;
 }
 export interface BusinessFAQProps extends FAQProps {
   topic: BusinessTopic;
   titleClassName?: string;
   value?: string;
+  onValueChange: React.Dispatch<React.SetStateAction<string | undefined>>;
   registerRef?: (id: string) => (node: HTMLElement | null) => void;
 }
 

@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { FaqJson, ShopperFAQProps, ShopperTopic } from "./types";
 import {
   Accordion,
@@ -36,9 +35,9 @@ export function ShopperFAQ({
   titleClassName,
   topic,
   value,
+  onValueChange,
   registerRef,
 }: ShopperFAQProps) {
-  const [openItem, setOpenItem] = useState<string | null>(null);
   const { question, answer } = DATA[language][topic];
 
   const keys = Object.keys(question) as (keyof typeof question)[];
@@ -63,8 +62,8 @@ export function ShopperFAQ({
         type="single"
         collapsible
         className="w-full"
-        value={openItem || value}
-        onValueChange={setOpenItem}
+        value={value}
+        onValueChange={onValueChange}
         aria-label={`${topic} frequently asked questions`}
       >
         {questions.map((_item, index) => {
