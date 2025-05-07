@@ -4,12 +4,13 @@ import { ForwardRefExoticComponent } from 'react';
 import { JSX } from 'react';
 import { RefAttributes } from 'react';
 
-export declare function BusinessFAQ({ language, className, titleClassName, topic, value, registerRef, }: BusinessFAQProps): JSX.Element;
+export declare function BusinessFAQ({ language, className, titleClassName, topic, value, onValueChange, registerRef, }: BusinessFAQProps): JSX.Element;
 
 declare interface BusinessFAQProps extends FAQProps {
     topic: BusinessTopic;
     titleClassName?: string;
     value?: string;
+    onValueChange: React.Dispatch<React.SetStateAction<string | undefined>>;
     registerRef?: (id: string) => (node: HTMLElement | null) => void;
 }
 
@@ -22,12 +23,13 @@ declare interface FAQProps {
     language: string;
 }
 
-export declare function ShopperFAQ({ language, className, titleClassName, topic, value, registerRef, }: ShopperFAQProps): JSX.Element;
+export declare function ShopperFAQ({ language, className, titleClassName, topic, value, onValueChange, registerRef, }: ShopperFAQProps): JSX.Element;
 
 declare interface ShopperFAQProps extends FAQProps {
     topic: ShopperTopic;
     titleClassName?: string;
     value?: string;
+    onValueChange: React.Dispatch<React.SetStateAction<string | undefined>>;
     registerRef?: (id: string) => (node: HTMLElement | null) => void;
 }
 

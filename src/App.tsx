@@ -1,6 +1,12 @@
 import "./index.css";
 import { useEffect, useRef, useState } from "react";
-import { Button, BusinessFAQ, ShopperFAQ } from "@flizpay-de/ui";
+import {
+  Button,
+  BusinessFAQ,
+  ShopperFAQ,
+  BusinessTermsAndConditions,
+  ShopperTermsAndConditions,
+} from "@flizpay-de/ui";
 import { cn } from "../lib/utils/cn";
 
 function App() {
@@ -50,6 +56,18 @@ function App() {
           </button>
         </div>
       </div>
+      <section className="flex flex-col space-y-4 bg-texture rounded-4xl">
+        <h1 className="text-2xl font-medium text-green-400">
+          Businesses Terms and Conditions
+        </h1>
+        <BusinessTermsAndConditions language={language as "de" | "en"} />
+      </section>
+      <section className="flex flex-col space-y-4 bg-texture rounded-4xl">
+        <h1 className="text-2xl font-medium text-green-400">
+          Person Terms and Conditions
+        </h1>
+        <ShopperTermsAndConditions language={language as "de" | "en"} />
+      </section>
       <section className="flex flex-col space-y-4 bg-texture rounded-4xl">
         <h1 className="text-2xl font-medium text-green-400">Businesses FAQs</h1>
         <BusinessFAQ
