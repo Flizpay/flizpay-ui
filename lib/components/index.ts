@@ -3,3 +3,4 @@ export { BusinessTermsAndConditions } from "./terms-and-conditions/BusinessTerms
 export { ShopperTermsAndConditions } from "./terms-and-conditions/ShopperTermsAndConditions";
 export { BusinessFAQ } from "./faq/BusinessFAQ";
 export { ShopperFAQ } from "./faq/ShopperFAQ";
+export { PrivacyPolicy } from "./PrivacyPolicy";

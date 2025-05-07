@@ -1,0 +1,261 @@
+{
+  "page": {
+    "title": "FLIZpay Privacy Statement"
+  },
+  "introduction": {
+    "title": "1. Introduction",
+    "topText": {
+      "one": "In the following, we inform about the processing of personal data when using"
+    },
+    "subtext": {
+      "one": "our website flizpay.de",
+      "two": "of our services within the scope of the product FLIZ",
+      "three": "of our profiles in social media."
+    },
+    "bottomText": {
+      "one": "Personal data is any data that can be related to a specific natural person, e.g. their name or IP address."
+    }
+  },
+  "contact": {
+    "title": "1.1 Contact details",
+    "topText": {
+      "one": "The controller pursuant to Art. 4 (7) of the EU General Data Protection Regulation (GDPR) is Fliz Pay GmbH, Pestalozzistrasse 88,10625 Berlin, Germany, e-mail: info@flizpay.de. We are legally represented by Konrad Holtkamp.",
+      "two": "Our data protection officer can be contacted at the same address and email."
+    }
+  },
+  "dataProcessing": {
+    "title": "1.2 Scope of data processing, processing purposes and legal basis",
+    "topText": {
+      "one": "We detail the scope of data processing, processing purposes and legal bases below. In principle, the following come into consideration as the legal basis for data processing:"
+    },
+    "subtext": {
+      "one": "Art. 6 (1) p. 1 lit. a DSGVO serves as the legal basis for processing operations for which we obtain consent.",
+      "two": "Art. 6 para. 1 p. 1 lit. b DSGVO is the legal basis insofar as the processing of personal data is necessary for the fulfillment of a contract, e.g. if a site visitor purchases a product from us or we perform a service for him.",
+      "three": "This legal basis also applies to processing that is necessary for pre-contractual measures, such as inquiries about our products or services.",
+      "four": "Art. 6 (1) p. 1 lit. c DSGVO applies if we fulfill a legal obligation with the processing of personal data, as may be the case, for example, in tax law.",
+      "five": "Art. 6 (1) p. 1 lit. f DSGVO serves as the legal basis when we can invoke legitimate interests to process personal data, e.g. for cookies that are necessary for the technical operation of our website."
+    }
+  },
+  "dataProcessingOutsideEEA": {
+    "title": "1.3 Data processing outside the EEA",
+    "topText": {
+      "one": "Insofar as we transfer data to service providers or other third parties outside the EEA, adequacy decisions of the EU Commission pursuant to Art. 45 para. 3 GDPR guarantee the security of the data during transfer, insofar as these exist, as is the case, for example, for the UK, Canada and Israel.",
+      "two": "If no adequacy decision exists (e.g. for the USA), the legal basis for data transfer is usually standard contractual clauses, i.e. unless we indicate otherwise. These are a set of rules adopted by the EU Commission and form part of the contract with the respective third party. According to Art. 46 para. 2 lit. b GDPR, they guarantee the security of data transfer. Many of the providers have issued contractual guarantees that go beyond the standard contractual clauses and protect the data beyond the standard contractual clauses. These are, for example, guarantees regarding the encryption of the data or regarding the obligation of the third party to inform the data subject if law enforcement agencies wish to access data."
+    }
+  },
+  "storagePeriod": {
+    "title": "1.4. Storage period",
+    "topText": {
+      "one": "Unless expressly stated within the scope of this data protection declaration, the data stored by us will be deleted as soon as it is no longer required for its intended purpose and the deletion does not conflict with any statutory retention obligations. If the data is not deleted because it is required for other and legally permissible purposes, its processing will be restricted, i.e. the data will be blocked and not processed for other purposes. This applies, for example, to data that we must retain for reasons of commercial or tax law."
+    }
+  },
+  "rights": {
+    "title": "1.5 Rights of the persons concerned",
+    "topText": {
+      "one": "Data subjects have the following rights vis-à-vis us with regard to the personal data concerning them:"
+    },
+    "subtext": {
+      "one": "Right to information,",
+      "two": "Right to rectification or deletion,",
+      "three": "Right to restriction of processing,",
+      "four": "Right to object to processing,",
+      "five": "Right to data portability",
+      "six": "Right to revoke consent given at any time."
+    },
+    "bottomText": {
+      "one": "Data subjects also have the right to complain to a data protection supervisory authority about the processing of their personal data. Contact details for the data protection supervisory authorities are available [bfdiLink: here]."
+    }
+  },
+  "obligation": {
+    "title": "1.6 Obligation to provide data",
+    "topText": {
+      "one": "In the context of a business relationship or other relationship, customers, interested parties or third parties only have to provide us with the personal data that is required for the establishment, implementation and termination of the business relationship or for the other relationship, or which we are legally obliged to collect. Without this data, we will usually have to refuse to conclude a contract or provide a service or will no longer be able to perform an existing contract or other relationship.",
+      "two": "Mandatory information is marked as such."
+    }
+  },
+  "automaticDecisionMaking": {
+    "title": "1.7 No automatic decision-making in individual cases",
+    "topText": {
+      "one": "In principle, we do not use fully automated decision-making in accordance with Article 22 GDPR to establish and implement a business relationship or other relationship. If we use these procedures in individual cases, we will provide separate information about this if this is required by law."
+    }
+  },
+  "makingContact": {
+    "title": "1.8 Making contact",
+    "topText": {
+      "one": "When you contact us, e.g. by email or telephone, the data you provide us with (e.g. names and email addresses) will be stored by us in order to answer your questions. The legal basis for the processing is our legitimate interest (Art. 6 para. 1 sentence 1 lit. f GDPR) in answering inquiries addressed to us. We delete the data collected in this context after storage is no longer necessary or restrict processing if there are statutory retention obligations."
+    }
+  },
+  "surveys": {
+    "title": "1.9 Customer surveys",
+    "topText": {
+      "one": "From time to time, we conduct customer surveys to get to know our customers and their wishes better. We collect the data requested in each case. It is our legitimate interest to get to know our customers and their wishes better, so that the legal basis for the associated data processing is Art. 6 para. 1 sentence 1 lit. f GDPR. We delete the data once the results of the surveys have been evaluated."
+    }
+  },
+  "marketingCommunication": {
+    "title": "2. Marketing Communication",
+    "topText": {
+      "one": "We also process our customers’ data to send them marketing communication. For this purpose, we use the information provided by them during their registration and to which of our services and products they have signed up to and how they use them as well as data collected during their use of our app (in so far they consented to our use of in-app usage data). They can object to this processing at any time by contacting us or closing their account.",
+      "two": "Additionally, we may also show our customers personalized commercial in-app notifications based on the personal data mentioned above.",
+      "three": "If a customer uses our services, we may send her/him product recommendations, surveys or product review requests via email based on the fact that she/he is an existing customer. If she/he no longer wishes to receive these emails from us, she/he may opt-out at any time, free of charge, by clicking on the unsubscribe link available in each email, by changing her/his settings or by reaching out to us.",
+      "four": "With regard to push notifications, our customers can change their preferences any time in their device settings.",
+      "five": "The processing of data for marketing communications, is based on our legitimate interest in direct advertising (especially to existing customers), unless consent is legally required which will then be our legal basis."
+    }
+  },
+  "dataOnOurWebsite": {
+    "title": "3. Data processing on our website"
+  },
+  "noteForVisitorsFromDE": {
+    "title": "3.1 Note for website visitors from Germany",
+    "topText": {
+      "one": "Our website stores information in the terminal equipment of website visitors (e.g. cookies) or accesses information that is already stored in the terminal equipment (e.g. IP addresses). Please refer to the following sections to find out what information this is in detail.",
+      "two": "This storage and access takes place on the basis of the following provisions:"
+    },
+    "subtext": {
+      "one": "Insofar as this storage or access is absolutely necessary for us to provide the service expressly requested by website visitors on our website (e.g. to implement a chatbot used by the website visitor or to ensure the IT security of our website), it is carried out on the basis of Section 25 (2) no. 2 TTDSG.",
+      "two": "Otherwise, this storage or access is based on the consent of the website visitor (Section 25 (1) TTDSG)."
+    },
+    "bottomText": {
+      "one": "Downstream data processing is carried out in accordance with the following sections and on the basis of the provisions of the GDPR."
+    }
+  },
+  "useOfTheWebsite": {
+    "title": "3.2 Informational use of the website",
+    "topText": {
+      "one": "During the informative use of the website, i.e. when site visitors do not separately transmit information to us, we collect the personal data that the browser transmits to our server in order to ensure the stability and security of our website. This is our legitimate interest, so that the legal basis is Art. 6 para. 1 p. 1 lit. f DSGVO.",
+      "two": "These data are:"
+    },
+    "subtext": {
+      "one": "IP address",
+      "two": "Date and time of the request",
+      "three": "Time zone difference to Greenwich Mean Time (GMT)",
+      "four": "Content of the request (specific page)",
+      "five": "Access status/HTTP status code",
+      "six": "Amount of data transferred in each case",
+      "seven": "Website from which the request comes",
+      "eight": "Browser",
+      "nine": "Operating system and its interface",
+      "ten": "Language and version of the browser software."
+    },
+    "bottomText": {
+      "one": "This data is also stored in log files. They are deleted when their storage is no longer necessary, at the latest after 14 days."
+    }
+  },
+  "webHosting": {
+    "title": "3.3 Web hosting and provision of the website",
+    "topText": {
+      "one": "Our website hosts goneo. The provider is goneo Internet GmbH, Dresdener Straße 18, 32423 Minden, Germany. In doing so, the provider processes the personal data transmitted via the website, e.g. content, usage, meta/communication data or contact data, in Germany. Further information can be found in the provider's [goneoLink: privacy policy].",
+      "two": "It is our legitimate interest to provide a website, so that the legal basis of the described data processing is Art. 6 para. 1 p. 1 lit. f DSGVO."
+    }
+  },
+  "emailContact": {
+    "title": "3.4 Email contact",
+    "topText": {
+      "one": "When contacting us via our website, we store the content of the message.",
+      "two": "The legal basis for the processing is our legitimate interest to answer inquiries directed to us. The legal basis for the processing is therefore Art. 6 para. 1 p. 1 lit. f DSGVO.",
+      "three": "We delete the data accruing in this context after the storage is no longer required or restrict the processing if there are legal retention obligations."
+    }
+  },
+  "jobAdvertisements": {
+    "title": "3.5 Job advertisements",
+    "topText": {
+      "one": "We post jobs that are available within our company on our website, on sites linked to the website, or on third-party websites.",
+      "two": "The processing of the data provided as part of the application is carried out for the purpose of implementing the application process. Insofar as this is necessary for our decision to establish an employment relationship, the legal basis is Art. 88 (1) DSGVO in conjunction with Section 26 (1) BDSG. We have marked the data required to carry out the application process accordingly or refer to them. If applicants do not provide this data, we cannot process the application.",
+      "three": "Further data is voluntary and not required for an application. If applicants provide further information, this is based on their consent (Art. 6 para. 1 p. 1 lit. a DSGVO).",
+      "four": "We ask applicants to refrain from providing information on political opinions, religious beliefs and similarly sensitive data in their resumes and cover letters. They are not required for an application. If applicants nevertheless provide such information, we cannot prevent their processing as part of the processing of the resume or cover letter. Their processing is then also based on the consent of the applicants (Art. 9 (2) a DSGVO).",
+      "five": "Finally, we process the applicants' data for further application procedures if they have given us their consent to do so. In this case, the legal basis is Art. 6 para. 1 p. 1 lit. a DSGVO.We pass on the applicants' data to the responsible employees in the HR department, to our order processors in the area of recruiting and to the employees otherwise involved in the application process.",
+      "six": "If we enter into an employment relationship with the applicant following the application process, we delete the data only after the employment relationship has ended. Otherwise, we delete the data no later than six months after rejecting an applicant.",
+      "seven": "If applicants have given us their consent to also use their data for further application procedures, we will not delete their data until one year after receipt of the application."
+    }
+  },
+  "thirdPartyProviders": {
+    "title": "3.6 Third-party providers"
+  },
+  "sentry": {
+    "title": "3.6.1 Sentry",
+    "topText": {
+      "one": "We use Sentry to monitor applications and track errors in applications or on websites. The provider is Functional Software, Inc, 132 Hawthorne Street San Francisco, CA 94107, USA. The provider processes usage data (e.g. websites visited, interest in content, access times), content data (e.g. entries in online forms) and meta/communication data (e.g. device information, IP addresses) in the USA.",
+      "two": "The legal basis of the processing is Art. 6 (1) p. 1 lit. a DSGVO. We have a legitimate interest to adequately monitor the functionality of our applications. The processing is based on consent. Data subjects can revoke their consent at any time by contacting us, for example, using the contact details provided in our privacy policy. The revocation does not affect the lawfulness of the processing until the revocation.",
+      "three": "The legal basis for the transfer to a country outside the EEA are standard contractual clauses. The security of the data transferred to the third country (i.e. a country outside the EEA) is ensured by standard data protection clauses adopted in accordance with the review procedure under Article 93(2) of the GDPR (Article 46(2)(c) of the GDPR), which we have agreed with the provider.",
+      "four": "The data is deleted when the purpose for which it was collected no longer applies and there is no obligation to retain it. Further information is available in the provider's [sentryLink: privacy policy]."
+    }
+  },
+  "mongoDBAtlas": {
+    "title": "3.6.2 Mongo DB Atlas",
+    "topText": {
+      "one": "We use the Mongo DB Atlas cloud database. The provider is MongoDB, Inc, 3 Shelbourne Building, Crampton Avenue Ballsbridge, Dublin 4, Ireland ('MongoDB'). The data processing is based on our legitimate interests in the technically error-free and optimized provision of our services. The legal basis is therefore Art. 6 para. 1 p. 1 lit. f DSGVO. In the MongoDB database, we process the personal data specified under item 4."
+    }
+  },
+  "awsCloud": {
+    "title": "3.6.3 Amazon Web Services (AWS Cloud)",
+    "topText": {
+      "one": "We use AWS as cloud storage. The provider is Amazon Web Services EMEA Sàrl, Avenue John F. Kennedy 38, 1855 Luxembourg, Luxembourg. The provider processes IP addresses, profile pictures and documents uploaded by users in the EU. The legal basis of the processing is Art. 6 para. 1 p. 1 lit. f DSGVO. We have a legitimate interest in maintaining a modern and cost-effective hosting environment. The data is deleted when the purpose of its collection has ceased to apply and there is no obligation to retain it. Further information is available in the provider's [amazonLink: privacy policy]."
+    }
+  },
+  "GoogleAnalytics": {
+    "title": "3.6.4 Google Analytics",
+    "topText": {
+      "one": "We use Google Analytics for analysis. The provider is Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Dublin, Ireland. The provider processes usage data (e.g. websites visited, interest in content, access times) and meta/communication data (e.g. device information, IP addresses) in the USA.",
+      "two": "The legal basis of the processing is Art. 6 para. 1 p. 1 lit. a DSGVO. The processing is based on consent. Data subjects may revoke their consent at any time by contacting us, for example, using the contact details provided in our privacy policy. The revocation does not affect the lawfulness of the processing until the revocation.",
+      "three": "The legal basis for the transfer to a country outside the EEA are standard contractual clauses. The security of the data transferred to the third country (i.e. a country outside the EEA) is ensured by standard data protection clauses adopted in accordance with the review procedure under Article 93(2) of the GDPR (Article 46(2)(c) of the GDPR), which we have agreed with the provider.",
+      "four": "The data is deleted when the purpose for which it was collected no longer applies and there is no obligation to retain it. Further information is available in the provider’s privacy policy at https://policies.google.com/privacy?hl=de."
+    }
+  },
+  "GooglePlaces": {
+    "title": "3.6.5 Google Places API",
+    "topText": {
+      "one": "To enhance user experience and ensure accurate address entry, we use the Google Places API on our website and in our app. This service is provided by Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland.",
+      "two": "The Google Places API allows us to automatically complete and suggest addresses (e.g., when entering delivery addresses), making data entry as simple and efficient as possible for our users. In doing so, personal data — particularly IP addresses  — may be transmitted to and processed on Google servers, potentially including servers in third countries such as the United States.",
+      "three": "The legal basis for this data processing is your consent in accordance with Art. 6 (1) sentence 1 lit. a GDPR. You may withdraw your consent at any time with future effect. Data transfers to third countries are carried out based on standard contractual clauses pursuant to Art. 46 (2) lit. c GDPR, which we have agreed upon with Google.",
+      "four": "For more information on how Google processes data, please visit: https://policies.google.com/privacy"
+    }
+  },
+  "dataProcessingDuringUsageOfFliz": {
+    "title": "4. Data processing during the use of our product FLIZ"
+  },
+  "paymentInitiation": {
+    "title": "4.1 Payment initiation",
+    "topText": {
+      "one": "With regard to users of our App FLIZ, we process the following data in the context of registration and use in order to provide the service of our product to the customer:"
+    },
+    "subtext": {
+      "one": "Name,",
+      "two": "Email address",
+      "three": "Content/price of an shopping cart."
+    },
+    "bottomText": {
+      "one": "As part of using our FLIZ App, this personal data may be forwarded to the respective company in order to execute the order. During the onboarding process of the FLIZ app, the user selects their bank after entering the aforementioned data. The payment is approved at the bank and the user is then redirected back to FLIZ. We only receive information as to whether the authentication of the payment was successful.",
+      "two": "As part of the onboarding, users select their respective bank and save the selected bank and IBAN for future purchases. The selection is saved for the next purchase at FLIZ on the basis of the user's consent in accordance with Art. 6(1)(a) GDPR.",
+      "three": "The legal basis for the data processing described is consent obtained from the user (Art. 6 para. 1 p. 1 lit. a DSGVO), insofar as forwarding to third parties is concerned. Users can revoke consent at any time, e.g. by contacting info@flizpay.de. The processing of the data until the time of revocation remains lawful.",
+      "four": "The processing of the remaining data is necessary for the execution of the contract concluded with users (Art. 6 para. 1 p. 1 lit. b DSGVO).",
+      "five": "We delete the data when the account is deleted or when users request deletion and there are no retention rights or obligations to the contrary.",
+      "six": "As part of the onboarding into the FLIZ App or during the payment initiation, personalized security features are only known to the bank itself and not to Fliz Pay GmbH or any third party.",
+      "seven": "Account accesses are carried out for the purpose of onboarding into the FLIZ App and for the purpose of initiating payments.",
+      "eight": "Neither Fliz Pay GmbH nor any third parties have access to any additional account information."
+    }
+  },
+  "dataProcessingOnSocialMedia": {
+    "title": "5. data processing on social media platforms",
+    "topText": {
+      "one": "We are represented in social media networks in order to present our company and our services there. The operators of these networks regularly process their users' data for advertising purposes. Among other things, they create user profiles from their online behavior, which are used, for example, to show advertising on the pages of the networks and elsewhere on the Internet that corresponds to the interests of the users. To this end, the operators of the networks store information on user behavior in cookies on the users' computers. Furthermore, it cannot be ruled out that the operators merge this information with other data. Users can obtain further information and instructions on how to object to processing by the site operators in the data protection declarations of the respective operators listed below. It is also possible that the operators or their servers are located in non-EU countries, so that they process data there. This may result in risks for users, e.g. because it is more difficult to enforce their rights or because government agencies access the data.",
+      "two": "When users of the networks contact us via our profiles, we process the data provided to us in order to respond to the inquiries. This is our legitimate interest, so that the legal basis is Art. 6 para. 1 p. 1 lit. f DSGVO."
+    }
+  },
+  "linkedin": {
+    "title": "5.1 LinkedIn",
+    "topText": {
+      "one": "We maintain a profile on LinkedIn. The operator is LinkedIn Ireland Unlimited Company, Wilton Place, Dublin 2, Ireland. The privacy policy is available [linkedinLinkOne: here]. You can object to data processing via the [linkedinLinkTwo: settings for advertisements]."
+    }
+  },
+  "changesToThisDocument": {
+    "title": "6. changes to this privacy policy",
+    "topText": {
+      "one": "We reserve the right to amend this privacy policy with effect for the future. A current version is always available [flizLink: here]."
+    }
+  },
+  "questionsAndComments": {
+    "title": "7. questions and comments",
+    "topText": {
+      "one": "If you have any questions or comments regarding this privacy policy, please feel free to contact us using the contact information provided above."
+    }
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "page": {
+    "title": "Datenschutzerklärung"
+  },
+  "introduction": {
+    "title": "1. Einleitung",
+    "topText": {
+      "one": "Im Folgenden informieren wir über die Verarbeitung personenbezogener Daten bei der Nutzung"
+    },
+    "subtext": {
+      "one": "unsere Website flizpay.de",
+      "two": "unserer Leistungen im Rahmen des Produkts FLIZ",
+      "three": "unserer Profile in Sozialen Medien."
+    },
+    "bottomText": {
+      "one": "Personenbezogene Daten sind alle Daten, die auf eine konkrete natürliche Person beziehbar sind, z. B. ihr Name oder ihre IP-Adresse."
+    }
+  },
+  "contact": {
+    "title": "1.1 Kontaktdaten",
+    "topText": {
+      "one": "Verantwortlicher gem. Art. 4 Abs. 7 EU-Datenschutz-Grundverordnung (DSGVO) ist Fliz Pay GmbH, Pestalozzistrasse 88, 10625 Berlin, Deutschland, E-Mail: info@flizpay.de. Gesetzlich vertreten werden wir durch Konrad Holtkamp.",
+      "two": "Unser Datenschutzbeauftragter ist über dieselbe Adresse und E-Mail erreichbar."
+    }
+  },
+  "dataProcessing": {
+    "title": "1.2 Umfang der Datenverarbeitung, Verarbeitungszwecke und Rechtsgrundlagen",
+    "topText": {
+      "one": "Den Umfang der Verarbeitung der Daten, Verarbeitungszwecke und Rechtsgrundlagen führen wir im Detail weiter unten aus. Als Rechtsgrundlage für eine Datenverarbeitung kommen grundsätzlich die folgenden in Betracht:"
+    },
+    "subtext": {
+      "one": "Art. 6 Abs. 1 S. 1 lit. a DSGVO dient uns als Rechtsgrundlage für Verarbeitungsvorgänge, für die wir eine Einwilligung einholen.",
+      "two": "Art. 6 Abs. 1 S. 1 lit. b DSGVO ist Rechtsgrundlage, soweit die Verarbeitung personenbezogener Daten zur Erfüllung eines Vertrages erforderlich ist, z.B. wenn ein Seitenbesucher von uns ein Produkt erwirbt oder wir für ihn eine Leistung ausführen",
+      "three": "Diese Rechtsgrundlage gilt auch für Verarbeitungen, die für vorvertragliche Maßnahmen erforderlich sind, etwa bei Anfragen zu unseren Produkten oder Leistungen.",
+      "four": "Art. 6 Abs. 1 S. 1 lit. c DSGVO findet Anwendung, wenn wir mit der Verarbeitung personenbezogener Daten eine rechtliche Verpflichtung erfüllen, wie es z.B. im Steuerrecht der Fall sein kann.",
+      "five": "Art. 6 Abs. 1 S. 1 lit. f DSGVO dient als Rechtsgrundlage, wenn wir uns zur Verarbeitung personenbezogener Daten auf berechtigte Interessen berufen können."
+    }
+  },
+  "dataProcessingOutsideEEA": {
+    "title": "1.3 Datenverarbeitung außerhalb des EWR",
+    "topText": {
+      "one": "Sofern wir Daten an Dritte außerhalb des EWR übermitteln, garantieren Angemessenheitsbeschlüsse der EU-Kommission nach Art. 45 Ab. 3 DSGVO die Sicherheit der Daten bei der Weitergabe, soweit diese vorhanden sind, wie dies z.B. für Großbritannien, Kanada und Israel der Fall ist.",
+      "two": "Wenn kein Angemessenheitsbeschluss existiert (z.B. für die USA), sind Rechtsgrundlage für die Datenweitergabe im Regelfall, also soweit wir keinen abweichenden Hinweis geben, Standardvertragsklauseln. Diese sind ein von der EU-Kommission verabschiedetes Regelwerk und Teil des Vertrags mit dem jeweiligen Dritten. Nach Art. 46 Abs. 2 lit. b DSGVO gewährleisten sie die Sicherheit der Datenweitergabe. Viele der Anbieter haben über die Standardvertragsklauseln hinausgehende vertragliche Garantien abgegeben, die die Daten über die Standardvertragsklauseln hinaus schützen. Das sind z.B. Garantien hinsichtlich der Verschlüsselung der Daten oder hinsichtlich einer Pflicht des Dritten zum Hinweis an Betroffene, wenn Strafverfolgungsorgane auf Daten zugreifen wollen."
+    }
+  },
+  "storagePeriod": {
+    "title": "1.4. Speicherdauer",
+    "topText": {
+      "one": "Sofern nicht im Rahmen dieser Datenschutzerklärung ausdrücklich angegeben, werden die bei uns gespeicherten Daten gelöscht, sobald sie für ihre Zweckbestimmung nicht mehr erforderlich sind und der Löschung keine gesetzlichen Aufbewahrungspflichten entgegenstehen. Sofern die Daten nicht gelöscht werden, weil sie für andere und gesetzlich zulässige Zwecke erforderlich sind, wird ihre Verarbeitung eingeschränkt, d.h. die Daten werden gesperrt und nicht für andere Zwecke verarbeitet. Das gilt z.B. für Daten, die wir aus handels- oder steuerrechtlichen Gründen aufbewahren müssen."
+    }
+  },
+  "rights": {
+    "title": "1.5 Rechte der Betroffenen",
+    "topText": {
+      "one": "Betroffene haben gegenüber uns folgende Rechte hinsichtlich der sie betreffenden personenbezogenen Daten:"
+    },
+    "subtext": {
+      "one": "Recht auf Auskunft,",
+      "two": "Recht auf Berichtigung oder Löschung,",
+      "three": "Recht auf Einschränkung der Verarbeitung,",
+      "four": "Recht auf Widerspruch gegen die Verarbeitung,",
+      "five": "Recht auf Datenübertragbarkeit,",
+      "six": "Recht, eine erteilte Einwilligung jederzeit zu widerrufen."
+    },
+    "bottomText": {
+      "one": "Betroffene Personen haben außerdem das Recht, sich bei einer Datenschutz-Aufsichtsbehörde über die Verarbeitung ihrer personenbezogenen Daten zu beschweren. Die Kontaktdaten der Datenschutzaufsichtsbehörden finden Sie [bfdiLink: hier]."
+    }
+  },
+  "obligation": {
+    "title": "1.6 Pflicht zur Bereitstellung von Daten",
+    "topText": {
+      "one": "Kunden, Interessenten oder Dritte müssen uns im Rahmen einer Geschäftsbeziehung oder sonstigen Beziehung nur diejenigen personenbezogenen Daten bereitstellen, die für die Begründung, Durchführung und Beendigung der Geschäftsbeziehung oder für die sonstige Beziehung erforderlich sind oder zu deren Erhebung wir gesetzlich verpflichtet sind. Ohne diese Daten werden wir in der Regel den Abschluss eines Vertrages oder die Bereitstellung einer Leistung ablehnen müssen oder einen bestehenden Vertrag oder sonstige Beziehung nicht mehr durchführen können.",
+      "two": "Pflichtangaben sind als solche gekennzeichnet."
+    }
+  },
+  "automaticDecisionMaking": {
+    "title": "1.7 Keine automatische Entscheidungsfindung im Einzelfall",
+    "topText": {
+      "one": "Zur Begründung und Durchführung einer Geschäftsbeziehung oder sonstigen Beziehung nutzen wir grundsätzlich keine vollautomatisierte Entscheidungsfindung gemäß Artikel 22 DSGVO. Sollten wir diese Verfahren in Einzelfällen einsetzen, werden wir hierüber gesondert informieren, sofern dies gesetzlich geboten ist."
+    }
+  },
+  "makingContact": {
+    "title": "1.8 Kontaktaufnahme",
+    "topText": {
+      "one": "Bei der Kontaktaufnahme mit uns, z.B. per E-Mail oder Telefon, werden die uns mitgeteilten Daten (z.B. Namen und E-Mail-Adressen) von uns gespeichert, um Fragen zu beantworten. Rechtsgrundlage für die Verarbeitung ist unser berechtigtes Interesse (Art. 6 Abs. 1 S. 1 lit. f DSGVO), an uns gerichtete Anfragen zu beantworten. Die in diesem Zusammenhang anfallenden Daten löschen wir, nachdem die Speicherung nicht mehr erforderlich ist, oder schränken die Verarbeitung ein, falls gesetzliche Aufbewahrungspflichten bestehen."
+    }
+  },
+  "surveys": {
+    "title": "1.9 Kundenumfragen",
+    "topText": {
+      "one": "Von Zeit zu Zeit führen wir Kundenumfragen durch, um unsere Kunden und ihre Wünsche besser kennenzulernen. Dabei erheben wir die jeweils abgefragten Daten. Es ist unser berechtigtes Interesse, unsere Kunden und ihre Wünsche besser kennenzulernen, so dass Rechtsgrundlage der damit einhergehenden Datenverarbeitung Art. 6 Abs. 1 S. 1 lit f DSGVO ist. Die Daten löschen wir, wenn die Ergebnisse der Umfragen ausgewertet sind."
+    }
+  },
+  "marketingCommunication": {
+    "title": "2. Marketing Kommunikation",
+    "topText": {
+      "one": "Wir verarbeiten die Daten unserer Kunden auch, um ihnen Marketingkommunikation zu senden. Zu diesem Zweck verwenden wir die Informationen, die sie bei ihrer Registrierung angegeben haben und die Informationen darüber, für welche unserer Dienstleistungen und Produkte sie sich angemeldet haben und wie sie diese nutzen, sowie Daten, die bei der Nutzung unserer App gesammelt wurden (sofern sie der Verwendung von In-App-Nutzungsdaten zugestimmt haben). Sie können dieser Verarbeitung jederzeit widersprechen, indem sie sich mit uns in Verbindung setzen oder ihr Konto schließen.",
+      "two": "Außerdem können wir unseren Kunden auf der Grundlage der oben genannten personenbezogenen Daten personalisierte kommerzielle In-App-Benachrichtigungen anzeigen.",
+      "three": "Wenn ein Kunde unsere Dienste nutzt, senden wir ihr/ihm möglicherweise Produktempfehlungen, Umfragen oder Anfragen zu Produktbewertungen per E-Mail zu, da sie/er bereits Kunde ist. Wenn der Kunde diese E-Mails nicht mehr von uns erhalten möchte, kann sie/er diese jederzeit kostenlos abbestellen, indem sie/er auf den Link zum Abbestellen in jeder E-Mail klickt, ihre/seine Einstellungen ändert oder sich an uns wendet.",
+      "four": "Hinsichtlich Push-Benachrichtigungen, können Kunden ihre Präferenzen jederzeit in den Einstellungen ihres Geräts ändern.",
+      "five": "Die Verarbeitung von Daten für Marketingmitteilungen basiert auf unserem berechtigten Interesse an Direktwerbung (insbesondere an bestehende Kunden), es sei denn, eine Einwilligung ist gesetzlich vorgeschrieben; dies ist dann unsere Rechtsgrundlage."
+    }
+  },
+  "dataOnOurWebsite": {
+    "title": "3. Datenverarbeitung auf unserer Website"
+  },
+  "noteForVisitorsFromDE": {
+    "title": "3.1 Hinweis für Websitebesucher aus Deutschland",
+    "topText": {
+      "one": "Unsere Website speichert Informationen in der Endeinrichtung von Websitebesuchern (z.B. Cookies) oder greift auf Informationen zu, die bereits in der Endeinrichtung gespeichert sind (z.B. IP-Adressen). Welche Informationen dies im Einzelnen sind, ist den folgenden Abschnitten zu entnehmen.",
+      "two": "Diese Speicherung und dieser Zugriff erfolgt auf Grundlage der folgenden Bestimmungen:"
+    },
+    "subtext": {
+      "one": "Soweit diese Speicherung oder dieser Zugriff unbedingt erforderlich ist, damit wir dem von Websitebesuchern ausdrücklich gewünschten Dienst unserer Website zur Verfügung stellen (z.B. zur Durchführung eines vom Websitebesucher genutzten Chatbot oder zur Sicherstellung der IT-Sicherheit unserer Website), erfolgt sie auf Grundlage von § 25 Abs. 2Nr. 2 TTDSG.",
+      "two": "Im Übrigen erfolgt diese Speicherung oder dieser Zugriff auf Grundlage der Einwilligung der Websitebesucher (§ 25 Abs. 1 TTDSG)."
+    },
+    "bottomText": {
+      "one": "Die nachgelagerte Datenverarbeitung erfolgt nach Maßgabe der folgenden Abschnitte und auf Grundlage der Vorschriften der DSGVO."
+    }
+  },
+  "useOfTheWebsite": {
+    "title": "3.2 Informatorische Nutzung der Website",
+    "topText": {
+      "one": "Bei der informatorischen Nutzung der Website, also wenn Seitenbesucher uns nicht gesondert Informationen übermitteln, erheben wir die personenbezogenen Daten, die der Browser an unseren Server übermittelt, um die Stabilität und Sicherheit unserer Website zu gewährleisten. Darin liegt unser berechtigtes Interesse, so dass Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. f DSGVO ist.",
+      "two": "Diese Daten sind:"
+    },
+    "subtext": {
+      "one": "IP-Adresse",
+      "two": "Datum und Uhrzeit der Anfrage",
+      "three": "Zeitzonendifferenz zur Greenwich Mean Time (GMT)",
+      "four": "Inhalt der Anfrage (konkrete Seite)",
+      "five": "Zugriffsstatus/HTTP-Statuscode",
+      "six": "jeweils übertragene Datenmenge",
+      "seven": "Website, von der die Anfrage kommt",
+      "eight": "Browser",
+      "nine": "Betriebssystem und dessen Oberfläche",
+      "ten": "Sprache und Version der Browsersoftware."
+    },
+    "bottomText": {
+      "one": "Diese Daten werden außerdem in Logfiles gespeichert. Sie werden gelöscht, wenn ihre Speicherung nicht mehr erforderlich ist, spätestens nach 14 Tagen."
+    }
+  },
+  "webHosting": {
+    "title": "3.3 Webhosting und Bereitstellung der Website",
+    "topText": {
+      "one": "Unsere Website hostet Goneo. Anbieter ist die Goneo Internet GmbH, Dresdener Straße 18, 32423 Minden, Deutschland. Dabei verarbeitet der Anbieter die über die Website übermittelten personenbezogenen Daten, z.B. Inhalts-, Nutzungs-, Meta-/Kommunikationsdaten oder Kontaktdaten, in Deutschland. Weitere Informationen finden Sie in der [goneoLink: Datenschutzerklärung] des Anbieters.",
+      "two": "Es ist unser berechtigtes Interesse, eine Website zur Verfügung zu stellen, so dass die Rechtsgrundlage der beschriebenen Datenverarbeitung Art. 6 Abs. 1 S. 1 lit. f DSGVO ist."
+    }
+  },
+  "emailContact": {
+    "title": "3.4 Email Kontakt",
+    "topText": {
+      "one": "Bei Kontaktaufnahme über unsere Website speichern wir den Inhalt der Nachricht.",
+      "two": "Rechtsgrundlage für die Verarbeitung ist unser berechtigtes Interesse, an uns gerichtete Anfragen zu beantworten. Rechtsgrundlage für die Verarbeitung ist deshalb Art. 6 Abs. 1 S. 1 lit. f DSGVO.",
+      "three": "Die in diesem Zusammenhang anfallenden Daten löschen wir, nachdem die Speicherung nicht mehr erforderlich ist, oder schränken die Verarbeitung ein, falls gesetzliche Aufbewahrungspflichten bestehen."
+    }
+  },
+  "jobAdvertisements": {
+    "title": "3.5 Stellenanzeigen",
+    "topText": {
+      "one": "Wir veröffentlichen Stellen, die in unserem Unternehmen frei sind, auf unserer Website, auf mit der Website verbundenen Seiten oder auf Websites von Dritten.",
+      "two": "Die Verarbeitung der im Rahmen der Bewerbung angegebenen Daten erfolgt zur Durchführung des Bewerbungsverfahrens. Soweit diese für unsere Entscheidung, ein Beschäftigungsverhältnis zu begründen, erforderlich sind, ist Rechtsgrundlage Art. 88 Abs. 1 DSGVO i. V. m. § 26 Abs. 1 BDSG. Die zur Durchführung des Bewerbungsverfahrens erforderlichen Daten haben wir entsprechend gekennzeichnet oder weisen auf sie hin. Wenn Bewerber diese Daten nicht angeben, können wir die Bewerbung nicht bearbeiten.",
+      "three": "Weitere Daten sind freiwillig und nicht für eine Bewerbung erforderlich. Falls Bewerber weitere Angaben machen, ist Grundlage ihre Einwilligung (Art. 6 Abs. 1 S. 1 lit. a DSGVO).",
+      "four": "Wir bitten Bewerber, in Lebenslauf und Anschreiben auf Angaben zu politischen Meinungen, religiösen Anschauungen und ähnlich sensiblen Daten zu verzichten. Sie sind nicht für eine Bewerbung erforderlich. Wenn Bewerber dennoch entsprechende Angaben machen, können wir ihre Verarbeitung im Rahmen der Verarbeitung des Lebenslaufes oder Anschreibens nicht verhindern. Ihre Verarbeitung beruht dann auch auf der Einwilligung der Bewerber (Art. 9 Abs. 2 lit. a DSGVO).",
+      "five": "Schließlich verarbeiten wir die Daten der Bewerber für weitere Bewerbungsverfahren, wenn sie uns dazu ihre Einwilligung erteilt haben. In diesem Fall ist Rechtsgrundlage Art. 6 Abs. 1 S. 1 lit. a DSGVO. Die Daten der Bewerber geben wir an die zuständigen Mitarbeiter der Personalabteilung, an unsere Auftragsverarbeiter im Bereich Recruiting und an die im Übrigen im Bewerbungsverfahren beteiligten Mitarbeiter weiter.",
+      "six": "Wenn wir im Anschluss an das Bewerbungsverfahren ein Beschäftigungsverhältnis mit dem Bewerber eingehen, löschen wir die Daten erst nach Beendigung des Beschäftigungsverhältnisses. Andernfalls löschen wir die Daten spätestens sechs Monate nach Ablehnung eines Bewerbers.",
+      "seven": "Wenn Bewerber uns ihre Einwilligung erteilt haben, ihre Daten auch für weitere Bewerbungsverfahren zu verwenden, löschen wir ihre Daten erst ein Jahr nach Erhalt der Bewerbung."
+    }
+  },
+  "thirdPartyProviders": {
+    "title": "3.6 Drittanbieter"
+  },
+  "sentry": {
+    "title": "3.6.1 Sentry",
+    "topText": {
+      "one": "Wir setzen Sentry zur Überwachung von Anwendungen und zur Fehlerverfolgung in Anwendungen oder auf Websites ein. Der Anbieter ist Functional Software, Inc., 132 Hawthorne Street San Francisco, CA 94107, USA. Der Anbieter verarbeitet Nutzungsdaten (z.B. besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten), Inhaltsdaten (z.B. Eingaben in Onlineformularen) und Meta-/Kommunikationsdaten (z.B. Geräte-Informationen, IP-Adressen) in den USA.",
+      "two": "Die Rechtsgrundlage der Verarbeitung ist Art. 6 Abs. 1 S. 1 lit. a DSGVO. Wir haben ein berechtigtes Interesse, die Funktionsfähigkeit unserer Anwendungen angemessen zu überwachen. Die Verarbeitung erfolgt auf der Basis von Einwilligungen. Betroffene können ihre Einwilligung jederzeit widerrufen, indem sie uns z.B. unter den in unser Datenschutzerklärung angegebenen Kontaktdaten kontaktieren. Der Widerruf berührt nicht die Rechtmäßigkeit der Verarbeitung bis zum Widerruf.",
+      "three": "Rechtsgrundlage der Übermittlung in ein Land außerhalb des EWR sind Standardvertragsklauseln. Die Sicherheit der in das Drittland (also einem Land außerhalb des EWR) übermittelten Daten ist durch gemäß dem Prüfverfahren nach Art. 93 Abs. 2 DSGVO erlassene Standarddatenschutzklauseln gewährleistet (Art. 46 Abs. 2 lit. c DSGVO), die wir mit dem Anbieter vereinbart haben.",
+      "four": "Die Daten werden gelöscht, wenn der Zweck ihrer Erhebung entfallen ist und keine Aufbewahrungspflicht entgegensteht. Weitere Informationen sind in der [sentryLink: Datenschutzerklärung] des Anbietersr."
+    }
+  },
+  "mongoDBAtlas": {
+    "title": "3.6.2 Mongo DB Atlas",
+    "topText": {
+      "one": "Wir verwenden die Cloud-Datenbank von Mongo DB Atlas. Anbieter ist MongoDB, Inc., 3 Shelbourne Building, Crampton Avenue Ballsbridge, Dublin 4, Irland (“MongoDB”). Die Datenverarbeitung erfolgt auf Grundlage unseren berechtigten Interessen an der technisch fehlerfreien und optimierten Bereitstellung unserer Dienste. Rechtsgrundlage ist deshalb Art. 6 Abs. 1 S. 1 lit. f DSGVO. In der Datenbank von MongoDB verarbeiten wir die unter Ziffer 4 angegebenen personenbezogenen Daten."
+    }
+  },
+  "awsCloud": {
+    "title": "3.6.3 Amazon Web Services (AWS Cloud)",
+    "topText": {
+      "one": "Wir verwenden AWS als Cloud-Storage. Anbieter ist Amazon Web Services EMEA Sàrl, Avenue John F. Kennedy 38, 1855 Luxemburg, Luxemburg. Der Anbieter verarbeitet IP-Adressen, Profilbilder und durch Nutzer hochgeladene Dokumente in der EU. Die Rechtsgrundlage der Verarbeitung ist Art. 6 Abs. 1 S. 1 lit. f DSGVO. Wir haben ein berechtigtes Interesse, ein modernes und kostengünstige Hostingumgebung zu unterhalten. Die Daten werden gelöscht, wenn der Zweck ihrer Erhebung entfallen ist und keine Aufbewahrungspflicht entgegensteht. Weitere Informationen sind in der [amazonLink: Datenschutzerklärung] des Anbieters."
+    }
+  },
+  "GoogleAnalytics": {
+    "title": "3.6.4 Google Analytics",
+    "topText": {
+      "one": "Wir nutzen Google Analytics zur Analyse. Anbieter ist die Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Dublin, Irland. Der Anbieter verarbeitet Nutzungsdaten (z. B. besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten) sowie Meta-/Kommunikationsdaten (z. B. Geräteinformationen, IP-Adressen) in den USA.",
+      "two": "Rechtsgrundlage der Verarbeitung ist Art. 6 Abs. 1 S. 1 lit. a DSGVO. Die Verarbeitung erfolgt auf Grundlage einer Einwilligung. Betroffene Personen können ihre Einwilligung jederzeit widerrufen, indem sie uns beispielsweise über die in unserer Datenschutzerklärung angegebenen Kontaktdaten kontaktieren. Der Widerruf berührt nicht die Rechtmäßigkeit der bis zum Widerruf erfolgten Verarbeitung.",
+      "three": "Rechtsgrundlage für die Übermittlung in ein Land außerhalb des EWR sind Standardvertragsklauseln. Die Sicherheit der in ein Drittland (d. h. ein Land außerhalb des EWR) übertragenen Daten wird durch Standarddatenschutzklauseln gewährleistet, die gemäß dem Prüfverfahren nach Art. 93 Abs. 2 DSGVO erlassen wurden (Art. 46 Abs. 2 lit. c DSGVO) und die wir mit dem Anbieter vereinbart haben.",
+      "four": "Die Daten werden gelöscht, sobald der Zweck ihrer Erhebung entfällt und keine Aufbewahrungspflichten bestehen. Weitere Informationen finden Sie in der Datenschutzerklärung des Anbieters unter https://policies.google.com/privacy?hl=de."
+    }
+  },
+  "GooglePlaces": {
+    "title": "3.6.5 Google Places API",
+    "topText": {
+      "one": "Zur Verbesserung der Nutzerfreundlichkeit und zur korrekten Erfassung von Adressdaten nutzen wir auf unserer Website bzw. in unserer App die Google Places API, einen Dienst der Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland.",
+      "two": "Die Google Places API ermöglicht es uns, Adressen automatisch zu vervollständigen und vorzuschlagen (z. B. bei der Eingabe von Lieferadressen), um die Dateneingabe für unsere Nutzer so einfach und effizient wie möglich zu gestalten. Dabei werden personenbezogene Daten, insbesondere IP-Adressen, an Server von Google übermittelt und dort verarbeitet – unter Umständen auch in Drittstaaten wie den USA.",
+      "three": "Rechtsgrundlage für die Datenverarbeitung ist Ihre Einwilligung gemäß Art. 6 Abs. 1 S. 1 lit. a DSGVO. Sie können Ihre Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen. Die Übermittlung von Daten in Drittstaaten erfolgt auf Grundlage von Standardvertragsklauseln gemäß Art. 46 Abs. 2 lit. c DSGVO, die wir mit Google vereinbart haben.",
+      "four": "Weitere Informationen zur Datenverarbeitung durch Google finden Sie unter: https://policies.google.com/privacy"
+    }
+  },
+  "dataProcessingDuringUsageOfFliz": {
+    "title": "4. Datenverarbeitung bei der Nutzung unseres Produkts FLIZ"
+  },
+  "paymentInitiation": {
+    "title": "4.1 Zahlungsauslösung",
+    "topText": {
+      "one": "In Bezug auf Nutzer unserer App FLIZ verarbeiten wir die folgenden Daten im Rahmen der Registrierung und Nutzung, um die Leistung unseres Produkts an den Kunden auszuführen:"
+    },
+    "subtext": {
+      "one": "Name,",
+      "two": "Email-Adresse",
+      "three": "Inhalt/Preis eines Warenkorbs."
+    },
+    "bottomText": {
+      "one": "Im Rahmen der Nutzung unserer FLIZ App werden diese personenbezogenen Daten ggf. an die jeweilige Firma weitergeleitet, um die Bestellung ausführen zu können. Im Rahmen des Onboardings der FLIZ App wählt der Nutzer seine Bank nach Eingabe der oben genannten Daten aus. Bei der Bank wird die Zahlung freigegeben und der Nutzer kann dann zurück in die FLIZ App kommen. Dabei erhalten wir nur die Information, ob die Authentifizierung der Zahlung erfolgreich war.",
+      "two": "Im Rahmen des Onboardings wählen die Nutzer ihre jeweilige Bank aus und speichern die ausgewählte Bank und IBAN für zukünftige Käufe. Die Auswahl wird dann auf der Grundlage der Einwilligung des Nutzers gemäß Art. 6Abs. 1 lit. a) DSGVO für den nächsten Einkauf bei FLIZ gespeichert.",
+      "three": "Rechtsgrundlage der beschriebenen Datenverarbeitung ist eine vom Nutzer eingeholte Einwilligung (Art. 6 Abs. 1 S. 1 lit. a DSGVO), soweit die Weiterleitung an Dritte betroffen ist. Nutzer können die Einwilligung jederzeit widerrufen, z.B. indem sie sich an info@flizpay.de wenden. Die Verarbeitung der Daten bis zum Zeitpunkt des Widerrufs bleibt rechtmäßig.",
+      "four": "Die Verarbeitung der übrigen Daten ist erforderlich für die Durchführung des mit Nutzern geschlossenen Vertrags (Art. 6 Abs. 1 S. 1 lit. b DSGVO).",
+      "five": "Wir löschen die Daten bei Löschung des Kontos oder wenn Nutzer die Löschung verlangen und keine Aufbewahrungsrechte oder -pflichten entgegenstehen.",
+      "six": "Im Rahmen des Onboardings in die FLIZ App oder während der Zahlungsauslösung werden personalisierte Sicherheitsmerkmale nur der Bank selbst und weder der Fliz Pay GmbH noch einem Dritten bekannt.",
+      "seven": "Kontozugriffe werden zum Zweck des Onboardings in die FLIZ App sowie zum Zweck der Zahlungsauslösung durchgeführt.",
+      "eight": "Dabei erhalten weder die Fliz Pay GmbH noch Dritte Kenntnis von darüber hinausgehenden Kontoinformationen."
+    }
+  },
+  "dataProcessingOnSocialMedia": {
+    "title": "5. Datenverarbeitung auf Social Media-Plattformen",
+    "topText": {
+      "one": "Wir sind in Social Media-Netzwerken vertreten, um dort unser Unternehmen und unsere Leistungen vorzustellen. Die Betreiber dieser Netzwerke verarbeiten Daten ihrer Nutzer regelmäßig zu Werbezwecken. Unter anderem erstellen sie aus ihrem Onlineverhalten Nutzerprofile, die beispielsweise dazu verwendet werden, um auf den Seiten der Netzwerke und auch sonst im Internet Werbung zu zeigen, die den Interessen der Nutzer entspricht. Dazu speichern die Betreiber der Netzwerke Informationen zu dem Nutzungsverhalten in Cookies auf dem Rechner der Nutzer. Es ist außerdem nicht auszuschließen, dass die Betreiber diese Informationen mit weiteren Daten zusammenführen. Weitere Informationen sowie Hinweise, wie Nutzer der Verarbeitung durch die Seitenbetreiber widersprechen können, erhalten Nutzer in den unten aufgeführten Datenschutzerklärungen der jeweiligen Betreiber. Es kann auch sein, dass die Betreiber oder ihre Server in Nicht-EU-Staaten sitzen, so dass sie Daten dort verarbeiten. Hierdurch können sich für die Nutzer Risiken ergeben, z.B. weil die Durchsetzung ihrer Rechte erschwert wird oder staatliche Stellen Zugriff auf die Daten nehmen.",
+      "two": "Wenn Nutzer der Netzwerke mit uns über unsere Profile in Kontakt treten, verarbeiten wir die uns mitgeteilten Daten, um die Anfragen zu beantworten. Darin liegt unser berechtigtes Interesse, so dass Rechtsgrundlage Art. 6 Abs. 1 S. 1 lit. f DSGVO ist."
+    }
+  },
+  "linkedin": {
+    "title": "5.1 LinkedIn",
+    "topText": {
+      "one": "Wir unterhalten ein Profil auf LinkedIn. Betreiber ist LinkedIn Ireland Unlimited Company, Wilton Place, Dublin 2, Irland. Die Datenschutzerklärung ist [linkedinLinkOne: hier]. Eine Möglichkeit, der Datenverarbeitung zu widersprechen, ergibt sich über die [linkedinLinkTwo: Einstellungen für Werbeanzeigen]."
+    }
+  },
+  "changesToThisDocument": {
+    "title": "6. Änderungen dieser Datenschutzerklärung",
+    "topText": {
+      "one": "Wir behalten uns das Recht vor, diese Datenschutzerklärung mit Wirkung für die Zukunft zu ändern. Eine aktuelle Version ist jeweils [flizLink: hier] verfügbar."
+    }
+  },
+  "questionsAndComments": {
+    "title": "7. Fragen und Kommentare",
+    "topText": {
+      "one": "Für Fragen oder Kommentare bezüglich dieser Datenschutzerklärung stehen wir gern unter den oben angegebenen Kontaktdaten zur Verfügung."
+    }
+  }
+}
