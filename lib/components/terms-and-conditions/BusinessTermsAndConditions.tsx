@@ -47,7 +47,7 @@ export function BusinessTermsAndConditions({
 
         {/* --- Background --- */}
         <Section className={className} title={tc.background.title}>
-          {orderedValues(tc.contract.letterText).map((txt, i) => (
+          {orderedValues(tc.background.letterText).map((txt, i) => (
             <p key={i}>{txt}</p>
           ))}
         </Section>
@@ -168,7 +168,9 @@ export function BusinessTermsAndConditions({
   );
 }
 
-function orderedValues(obj: Record<string, string>) {
+function orderedValues(obj: Record<string, string> | undefined) {
+  if (!obj) return [] as string[];
+
   return Object.keys(obj) // ["1", "2", …]
     .sort((a, b) => +a - +b) // keep numeric order
     .map((k) => obj[k]); // ["…first", "…second"]
