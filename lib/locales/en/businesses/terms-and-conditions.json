@@ -1,0 +1,139 @@
+{
+  "page": {
+    "title": {
+      "one": "General Terms and Conditions",
+      "two": "FLIZ Plugin Terms of Use"
+    },
+    "subtitle": {
+      "one": "These are the terms of use of",
+      "two": "Fliz Pay GmbH\nPestalozzistrasse 88, 10625 Berlin\ninfo@flizpay.de\n(\"FLIZ\") for the use of the FLIZ Plugin and the FLIZ Business Account."
+    }
+  },
+  "background": {
+    "title": "1. Background",
+    "letterText": {
+      "one": "FLIZ is an infrastructure that enables companies to accept payments that end customers trigger directly on their bank account via the FLIZ App.",
+      "two": "The contract for the provision of goods and services (\"Purchase Contract\") is concluded exclusively between the buyer and the respective company/organization. Payment of the consideration for the purchase contract between the buyer and the company (\"Purchase Price\") is made by means of a transfer triggered by Open Banking. The same applies to donations.",
+      "three": "These Terms of Use represent the general conditions for the use of FLIZ by companies. Regulations deviating from these Terms of Use, in particular the General Terms and Conditions of the company/organization, shall only be deemed agreed between FLIZ and the company/organization if they have been confirmed in writing by FLIZ."
+    }
+  },
+  "contract": {
+    "title": "2. Subject Matter and Conclusion of Contract",
+    "letterText": {
+      "one": "FLIZ provides companies with the FLIZ Plugin and FLIZ Business Account in accordance with the following provisions for the duration of these Terms of Use. FLIZ's services are described on the website flizpay.de.",
+      "two": "The following steps lead to the conclusion of these Terms of Use:"
+    },
+    "numberText": {
+      "one": "By submitting their email address for registration, the company/organization submits a binding offer to conclude these Terms of Use.",
+      "two": "At the beginning of the registration process, the company/organization receives a confirmation code by email with which it confirms the email address. This unlocks access to the FLIZ Business Account. To unlock the plugin/integration, the company/organization must select its IT platform or Custom API in the Integration section of the FLIZ Business Account. These Terms of Use come into effect when FLIZ activates the FLIZ services."
+    },
+    "bottomLetterText": {
+      "one": "These Terms of Use are available to the company/organization at the time of conclusion of the respective contract for retrieval and storage and are kept available for the company/organization after registration in the FLIZ Business Account. These Terms of Use are available in German."
+    }
+  },
+  "contractualPartner": {
+    "title": "3. Contractual Partner",
+    "letterText": {
+      "one": "These Terms of Use exclusively govern the service relationship between the company/organization and FLIZ.",
+      "two": "These Terms of Use and their execution do not establish any contractual relationship between buyers and FLIZ."
+    }
+  },
+  "serviceDescription": {
+    "title": "4. Service Description",
+    "letterText": {
+      "one": "FLIZ provides the company/organization with the FLIZ Plugin for use via the Internet for the duration of these Terms of Use. The FLIZ Plugin is a technical interface that enables data transfer between bank connectivity provider and the company/organization. The FLIZ Business Account also has additional functionalities for managing and monitoring all ongoing transactions. The FLIZ services are described on the website flizpay.de. The FLIZ Business Account can be accessed via a standard web browser. Currently, the FLIZ services are optimized for the following web browsers: Google Chrome v16 or higher.",
+      "two": "FLIZ only owes a proper and needs-based connection of the FLIZ Services to the Internet, but not the establishment and maintenance of the Internet data connection between the IT systems of the company/organization and FLIZ.",
+      "three": "The average availability of the functionalities of the \"FLIZ Services\" is 99.5% based on a calendar year. The functionalities of the FLIZ Business Account are considered available when FLIZ's systems that provide the functionalities are connected to the Internet via an access node and can be used over the Internet with state-of-the-art end devices and Internet access. When determining availability, the times mentioned in sections 4.d. to 4.g. are not taken into account.",
+      "four": "To ensure the quality and further development of the FLIZ services, FLIZ may announce maintenance windows during which the provision of functionalities is not possible. This time is not taken into account when calculating availability. Whenever possible, FLIZ will schedule maintenance windows during times of low utilization. Maintenance windows will be announced to the company/organization by email to the email address provided by the user during registration and with reasonable advance notice.",
+      "five": "When calculating availability, times when the FLIZ services are not available due to urgent adjustments or updates to the IT infrastructure used for the FLIZ services to fix security vulnerabilities, acutely unstable software/hardware, or immediate threats such as ongoing attacks are also not taken into account. In these cases, FLIZ may also schedule unscheduled and unannounced maintenance times. However, FLIZ will endeavor to notify the company/organization immediately and inform them about the status of processing by email to the email address provided by the company/organization during registration.",
+      "six": "When calculating availability, times when the FLIZ services are not accessible due to technical or other problems that are not within FLIZ's sphere of influence (force majeure, fault of third parties, causes within the sphere of influence of the company/organization (e.g., end device errors, etc.) are not taken into account.",
+      "seven": "FLIZ support is available for questions and complaints from the company/organization from Monday to Friday from 8:30 AM to 5:00 PM by telephone: [+49 15141823052] and by email at info@flizpay.de."
+    }
+  },
+  "obligations": {
+    "title": "5. Obligations of the Company / Organization",
+    "letterText": {
+      "one": "The company/organization undertakes:"
+    },
+    "numberText": {
+      "one": "that the offer of goods and services does not violate legal regulations, official orders, or good morals according to the legal system applicable to the intended contract, in particular that the offer or sale does not violate third-party rights, especially third-party copyrights or trademarks;",
+      "two": "that with regard to the data transmitted by it, the relevant data protection regulations are observed;",
+      "three": "to report functional failures, disruptions, or impairments of the operation and accessibility of the FLIZ Business Account immediately and as precisely as possible. If the company/organization fails to provide this cooperation, § 536c BGB applies accordingly.",
+      "four": "to keep the access data provided to it confidential and to ensure that its employees to whom access data is provided do the same;",
+      "five": "to set up and maintain the necessary data backups throughout the entire contract period;",
+      "six": "to refrain from anything that endangers or disrupts the functioning of the FLIZ services, as well as from accessing data to which it is not entitled. Furthermore, the company/organization must ensure that its information and data transmitted via FLIZ are not infected with viruses or trojans."
+    }
+  },
+  "changes": {
+    "title": "6. Changes",
+    "letterText": {
+      "one": "FLIZ may unilaterally make changes to these Terms of Use and the FLIZ Services at any time, subject to this Section 8.a. FLIZ will inform the company/organization of all changes on a durable medium within a period appropriate to the impact of the change, which shall never be less than 15 days, before they take effect. The company's/organization's consent to such a change is deemed granted if the company/organization does not terminate this Terms of Use before the expiry of the set deadline. The deadline is met if the company/organization sends the termination to FLIZ before the changes take effect. The company/organization may also waive the set deadline at any time after receiving the change notification either by written declaration or by unambiguous confirming action, i.e., accept the change. FLIZ will specifically point out the effect of consent and the right of termination in the change notification.",
+      "two": "The deadline mentioned in Clause 7.a. does not apply if FLIZ"
+    },
+    "numberText": {
+      "one": "must make changes to the Terms of Use due to legal or officially ordered obligations in a way that does not allow FLIZ to comply with the deadline mentioned in Clause 8.a.;",
+      "two": "must change its Terms of Use under exceptional circumstances to address an unforeseen and immediate threat to protect FLIZ Services, consumers, or companies/organizations from fraud, malware, spam, data protection violations, or other cybersecurity risks.",
+      "three": "A change within the meaning of Clause 7.a. is not to be assumed if FLIZ makes changes to its own IT systems used to provide the services on the FLIZ Business Account and/or adjusts individual functionalities that have no impact on the use of the FLIZ Services. Such adjustments are permissible at any time and without prior notice."
+    }
+  },
+  "compensationAndBilling": {
+    "title": "7. Compensation and Billing",
+    "letterText": {
+      "one": "Transactions are free of charge unless a separate, individualized price agreement has been made."
+    }
+  },
+  "rightsOfUse": {
+    "title": "8. Rights of Use",
+    "letterText": {
+      "one": "FLIZ provides the company/organization with the FLIZ Services during use for the contractual purpose defined in these Terms of Use.",
+      "two": "To the extent necessary for contractual purposes, FLIZ grants the company/organization rights of use to the software of the FLIZ Plugin and the FLIZ Business Account or its operating environment, whereby FLIZ grants the company/organization a simple, non-transferable right of use limited to the contract term. Legally mandatory rights remain unaffected by this.",
+      "three": "The company/organization is not permitted to make the contractual services of FLIZ available to third parties under these Terms of Use, to license, rent, or lease them."
+    }
+  },
+  "warranty": {
+    "title": "9. Warranty",
+    "letterText": {
+      "one": "The statutory provisions on liability for defects in rental contracts apply to the use of FLIZ's services. Sections 536b BGB (tenant's knowledge of the defect at the time of conclusion of the contract or acceptance), 536c BGB (defects occurring during the rental period; notification of defects by the tenant) also apply.",
+      "two": "However, the application of Section 536a Para. 2 BGB (tenant's right of self-help) is excluded.",
+      "three": "The application of § 536a Para. 1 BGB (landlord's liability for damages) is also excluded insofar as the provision provides for strict liability."
+    }
+  },
+  "liability": {
+    "title": "10. Liability",
+    "letterText": {
+      "one": "FLIZ is liable without limitation for intent and gross negligence. For slight negligence, FLIZ is liable without limitation under the Product Liability Act and for damages resulting from injury to life, body, or health of persons.",
+      "two": "Otherwise, FLIZ is only liable for slight negligence in case of breach of an essential contractual obligation, the fulfillment of which makes the proper execution of this contract possible in the first place and on the observance of which the company/organization may regularly rely, and the breach of which, on the other hand, endangers the achievement of the contractual purpose (cardinal obligation). In these cases, liability is limited in amount to the foreseeable and contract-typical damage at the time of conclusion of the contract. This limitation of liability also applies in favor of the vicarious agents employed by FLIZ.",
+      "three": "If the company/organization suffers damage due to the loss of data that is available to the company/organization for download via the FLIZ Services, FLIZ is not liable for this insofar as the damage could have been avoided by regular backup of the data by the company/organization according to the state of the art. The company/organization must perform such data backup itself or have it performed by a third party and is solely responsible for this."
+    }
+  },
+  "dataProtection": {
+    "title": "11. Data Protection",
+    "text": {
+      "one": "FLIZ is independently responsible for the processing of personal data within the scope of this contract within the meaning of the GDPR. The contracting parties must comply with the applicable data protection regulations."
+    }
+  },
+  "contractTermination": {
+    "title": "12. Contract Term, Termination",
+    "letterText": {
+      "one": "The contract is concluded for an indefinite period unless individually agreed otherwise. The company/organization has the right to terminate the contract ordinarily at any time. The termination must be in writing and addressed to FLIZ. The notice period is one working day unless a different period has been individually agreed. The right to extraordinary termination for good cause remains unaffected."
+    },
+    "text": {
+      "one": "FLIZ reserves the right to terminate the contract with the company/organization ordinarily at any time. The termination must be in writing and addressed to the company/organization. FLIZ will grant the company/organization a reasonable notice period unless legally regulated otherwise or a different period has been individually agreed. An extraordinary right of termination for good cause remains unaffected."
+    },
+    "bottomLetterText": {
+      "one": "Good cause exists if facts are present on the basis of which the terminating party cannot reasonably be expected to continue the contract, taking into account all circumstances of the individual case and weighing the interests of the contracting parties.",
+      "two": "Any termination requires written form to be effective."
+    }
+  },
+  "finalProvisions": {
+    "title": "13. Final Provisions",
+    "letterText": {
+      "one": "General Terms and Conditions of the company/organization do not apply.",
+      "two": "An assignment of rights and obligations from this contract is only permitted with prior written consent of FLIZ. FLIZ is entitled to entrust third parties with the fulfillment of obligations from this contract.",
+      "three": "Furthermore, FLIZ is granted the right to use the partner's name and logo for communication purposes.",
+      "four": "There are no verbal side agreements. Changes and additions to these Terms of Use must be in text form to be effective.",
+      "five": "Should a provision of these Terms of Use be or become invalid in whole or in part, this shall not affect the validity of the remaining provisions. In this case, the parties will negotiate an agreement that comes closest to the economic purpose of the provision in a legally permissible manner.",
+      "six": "These Terms of Use are subject to the law of the Federal Republic of Germany with the exception of the provisions of international private law and the UN Convention on Contracts for the International Sale of Goods. The place of jurisdiction for all disputes arising directly or indirectly from the contractual relationship is the registered office of FLIZ."
+    }
+  }
+}

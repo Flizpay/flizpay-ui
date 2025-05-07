@@ -1,0 +1,83 @@
+{
+  "title": {
+    "one": "General terms and conditions for the use of our services",
+    "two": "Preamble"
+  },
+  "subtitle": "These are the terms of the agreement entered into between you as a user of our services ('User') and Fliz Pay GmbH, Pestalozzistrasse 88, 10625 Berlin, Germany ('FLIZ'), governing the establishment and use of your FLIZ-account. These terms and conditions apply to all such contracts.",
+  "scope": {
+    "title": "1. Scope of application, sole validity of these conditions",
+    "topText": {
+      "one": "These terms and conditions apply to the creation and use of user accounts that enable you to make purchases in online stores or make online donations to non-profit organizations that cooperate with FLIZ, through the payment services arranged by us.",
+      "two": "The following General Terms and Conditions in the version valid at the time of registration shall apply exclusively to registration and use. Deviating general terms and conditions of the user are not recognized unless the provider expressly agrees to their validity in writing."
+    }
+  },
+  "conditions": {
+    "title": "2. Conditions of use",
+    "topText": {
+      "one": "You must be at least 18 years old and of legal age to enter into a contract to open a FLIZ account and use our services.",
+      "two": "To use our service, you also need access to a smartphone and an Internet connection, as well as a registered user account."
+    }
+  },
+  "registration": {
+    "title": "3. Registration",
+    "topText": {
+      "one": "To create a user account, you must follow the instructions displayed on the FLIZ onboarding form in the app. Upon complete completion of these steps, the user contract comes into effect. Input errors can be detected and corrected before submitting the contractual declaration by carefully reading the information displayed on the screen. The customer can correct his entries during the registration process using the usual keyboard functions until he clicks the button that concludes the process.",
+      "two": "The German and English languages are available for the conclusion of the contract.",
+      "three": "In the course of the registration process, you will be asked to provide various data. Insofar as the corresponding input fields are not marked as 'Optional', this is information that is required for the correct processing of payments. You are obliged to provide accurate information in this respect.",
+      "four": "The respective status of the GTC at the time of conclusion of the contract shall not be stored subsequently and shall not be accessible to the customer."
+    }
+  },
+  "ourServices": {
+    "title": "4. Our services",
+    "topText": {
+      "one": "Through the FLIZ app, FLIZ enables registered users to initiate payments directly on their bank account in order to pay businesses and organizations FLIZ cooperates with.",
+      "two": "The services of FLIZ are provided free of charge for the user.",
+      "three": "The contractual partner of the respective purchase remains the company or organization in which users pay with their bank accounts via the FLIZ app. Therefore, the terms and conditions of the respective company or organization apply to the purchase."
+    }
+  },
+  "termsOfUse": {
+    "title": "5. Terms of use",
+    "topText": {
+      "one": "It is not permitted to process payments using FLIZ,"
+    },
+    "subtext": {
+      "one": "that violate any laws, ordinances, rules or regulations (e.g. purchase of prohibited narcotics, stolen goods or illegal weapons);",
+      "two": "which infringe any third party rights (e.g. trademarks, copyright or data protection rights); or",
+      "three": "which involve an activity requiring a permit, without a permit having been obtained."
+    }
+  },
+  "limits": {
+    "title": "6. Limitations of liability",
+    "topText": {
+      "one": "FLIZ shall only be liable for damages to the user - for whatever legal reason - in the following cases"
+    },
+    "subtext": {
+      "one": "with intent with",
+      "two": "in case of gross negligence of our organs or executive employees",
+      "three": "in case of culpable injury to life, body, health,",
+      "four": "in the case of fraudulently concealed defects or defects whose absence we have guaranteed",
+      "five": "in the case of compulsory liability under special law."
+    },
+    "bottomText": {
+      "one": "In the event of culpable breach of essential contractual obligations, we shall also be liable in the event of gross negligence on the part of non-executive employees and in the event of slight negligence, in the latter case limited to reasonably foreseeable damage typical for the contract.",
+      "two": "The above exclusions or limitations of liability also apply in favor of our employees, representatives and other vicarious agents.",
+      "three": "FLIZ furthermore assumes no liability whatsoever for the processing of payment transactions or the execution of your purchase by our aforementioned partner companies."
+    }
+  },
+  "terminationOfContract": {
+    "title": "7. Termination of contract",
+    "topText": {
+      "one": "The contract for the use of our services is in principle indefinite.",
+      "two": "The User may delete his/her account in the FLIZ app.",
+      "three": "FLIZ is entitled to terminate the user contract without notice and close the user account in the event of a violation of the conditions stated in section 5.",
+      "four": "This also applies if you have not accessed the account for more than three years.",
+      "five": "The statutory provisions of termination remain unaffected."
+    }
+  },
+  "applicableLaw": {
+    "title": "8. Applicable law",
+    "text": {
+      "one": "German law shall apply, excluding the UN Convention on Contracts for the International Sale of Goods."
+    }
+  }
+}

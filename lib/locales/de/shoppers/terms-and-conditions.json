@@ -1,0 +1,83 @@
+{
+  "title": {
+    "one": "Allgemeine Geschäftsbedingungen zur Nutzung unserer Dienste",
+    "two": "Präambel"
+  },
+  "subtitle": "Dies sind die Bedingungen des zwischen dir als Nutzer unserer Services („Nutzer“) und der Fliz Pay GmbH, Pestalozzistrasse 88, 10625 Berlin („FLIZ“) geschlossenen Vertrags, die die Einrichtung und Nutzung Ihres FLIZ-Accounts regeln. Diese Bedingungen gelten für alle derartigen Verträge.",
+  "scope": {
+    "title": "1. Geltungsbereich, alleinige Gültigkeit dieser Bedingungen",
+    "topText": {
+      "one": "Diese Bedingungen gelten für die Einrichtung und Nutzung von Benutzeraccounts, mit dem es dir ermöglicht wird, bei Einkäufen in Online-Shops oder bei online Spenden in non-profit Organisationen, die mit FLIZ kooperieren, über die von uns angebotene Technologie zu bezahlen.",
+      "two": "Für die Registrierung und Nutzung gelten ausschließlich die nachfolgenden Allgemeinen Geschäftsbedingungen in ihrer zum Zeitpunkt der Registrierung gültigen Fassung. Abweichende allgemeine Geschäftsbedingungen des Nutzers werden nicht anerkannt, es sei denn, der Anbieter stimmt Ihrer Geltung ausdrücklich schriftlich zu."
+    }
+  },
+  "conditions": {
+    "title": "2. Bedingungen der Nutzung",
+    "topText": {
+      "one": "Du musst mindestens 18 Jahre alt und voll geschäftsfähig sein, um einen Vertrag zur Eröffnung eines FLIZ-Accounts und zur Nutzung unserer Dienste abzuschließen.",
+      "two": "Um unseren Service nutzen zu können, benötigst du ferner Zugang zu einem Smartphone und eine Internetverbindung sowie ein registriertes Benutzerkonto."
+    }
+  },
+  "registration": {
+    "title": "3. Registrierung",
+    "topText": {
+      "one": "Zur Einrichtung eines Benutzerkontos musst du den im FLIZ-Onboarding-Formular angezeigten Anweisungen in der App folgen. Mit vollständiger Durchführung dieser Schritte kommt der Nutzungsvertrag zu Stande. Eingabefehler können vor Abgabe der Vertragserklärung durch aufmerksames Lesen der auf dem Bildschirm dargestellten Informationen erkannt und berichtigt werden. Seine Eingaben kann der Kunde im Rahmen des Registrierungsprozesses so lange über die üblichen Tastaturfunktionen korrigieren, bis er den den Vorgang abschließenden Button anklickt.",
+      "two": "Für den Vertragsschluss steht die deutsche und englische Sprache zur Verfügung.",
+      "three": "Im Laufe des Registrierungsprozesses wirst du zur Angabe verschiedener Daten aufgefordert. Soweit die entsprechenden Eingabefelder nicht als „Optional“ gekennzeichnet sind, handelt es sich um Angaben, die für die korrekte Abwicklung von Zahlungen erforderlich sind. Du bist verpflichtet, insofern zutreffende Angaben zu machen.",
+      "four": "Der jeweilige Stand der AGB bei Vertragsschluss wird im Nachhinein nicht gespeichert und ist dem Kunden nicht zugänglich."
+    }
+  },
+  "ourServices": {
+    "title": "4. Unsere Leistungen",
+    "topText": {
+      "one": "Durch die FLIZ App ermöglicht FLIZ registrierten Nutzern, Zahlungen direkt von ihrem Bankkonto auszulösen, um Geschäfte und Organisationen zu bezahlen, mit denen FLIZ kooperiert.",
+      "two": "Die Leistungen von FLIZ werden für den Nutzer kostenfrei erbracht.",
+      "three": "Vertragspartner des jeweiligen Kaufs bleibt das jeweilige Unternehmen oder die jeweilige Organisation, in dem/der Nutzer mit FLIZ bezahlen. Für den Kauf gelten daher die Einkaufsbedingungen des jeweiligen Unternehmens oder der jeweiligen Organisation."
+    }
+  },
+  "termsOfUse": {
+    "title": "5. Nutzungsbedingungen",
+    "topText": {
+      "one": "Es ist nicht gestattet, Zahlungen mittels FLIZ abzuwickeln,"
+    },
+    "subtext": {
+      "one": "durch die gegen Gesetze, Verordnungen, Bestimmungen oder Vorschriften verstoßen wird (z.B. beim Kauf von verbotenen Rauschmitteln, Diebesgut oder illegalen Waffen);",
+      "two": "durch die gegen Rechte Dritter (z.B. Marken, Urheberrechte oder Datenschutzrechte) verstoßen wird; oder",
+      "three": "die eine genehmigungspflichtige Aktivität beinhalten, ohne dass eine Genehmigung vorliegt."
+    }
+  },
+  "limits": {
+    "title": "6. Haftungsbeschränkungen",
+    "topText": {
+      "one": "FLIZ haftet für Schäden des Nutzers - aus welchem Rechtsgrund auch immer - nur"
+    },
+    "subtext": {
+      "one": "bei Vorsatz bei",
+      "two": "grober Fahrlässigkeit unserer Organe oder leitenden Angestellten",
+      "three": "bei schuldhafter Verletzung von Leben, Körper, Gesundheit,",
+      "four": "bei arglistig verschwiegenen Mängeln oder Mängeln, deren Abwesenheit wir garantiert haben",
+      "five": "bei spezialgesetzlichen zwingenden Haftungstatbeständen"
+    },
+    "bottomText": {
+      "one": "Bei schuldhafter Verletzung wesentlicher Vertragspflichten haften wir auch bei grober Fahrlässigkeit nicht leitender Angestellter und bei leichter Fahrlässigkeit, in letzterem Fall begrenzt auf den vertragstypischen, vernünftigerweise vorhersehbaren Schaden. Wesentliche Vertragspflichten sind solche Pflichten, deren Erfüllung die ordnungsgemäße Durchführung des Vertrags überhaupt erst ermöglicht und auf deren Einhaltung der Vertragspartner regelmäßig vertraut und vertrauen darf.",
+      "two": "Die vorstehenden Haftungsausschlüsse bzw. Haftungsbeschränkungen gelten auch zugunsten unserer Arbeitnehmer, Vertreter und sonstigen Erfüllungsgehilfen.",
+      "three": "FLIZ übernimmt darüber hinaus keinerlei Haftung für die Abwicklung der Bezahlvorgänge oder die Durchführung Ihres Einkaufs durch unsere vorgenannten Partnerunternehmen."
+    }
+  },
+  "terminationOfContract": {
+    "title": "7. Vertragsbeendigung",
+    "topText": {
+      "one": "Der Vertrag über die Nutzung unserer Dienste ist grundsätzlich unbefristet.",
+      "two": "Der Nutzer kann sein Konto über die FLIZ App löschen.",
+      "three": "FLIZ ist berechtigt, den Nutzungsvertrag bei Verstoß gegen die unter Ziffer 5 genannten Bedingungen fristlos zu kündigen und das Benutzerkonto zu schließen.",
+      "four": "Dies gilt auch, wenn Sie mehr als drei Jahre lang nicht auf das Konto zugegriffen haben.",
+      "five": "Die gesetzlichen Vorschriften der Kündigung bleiben unberührt."
+    }
+  },
+  "applicableLaw": {
+    "title": "8. Anzuwendendes Recht",
+    "text": {
+      "one": "Es gilt deutsches Recht unter Ausschluss des UN-Kaufrechts."
+    }
+  }
+}

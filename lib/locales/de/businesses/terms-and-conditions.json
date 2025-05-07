@@ -1,0 +1,139 @@
+{
+  "page": {
+    "title": {
+      "one": "Allgemeine Geschäftsbedingungen",
+      "two": "FLIZ Plugin Nutzungsbedingungen"
+    },
+    "subtitle": {
+      "one": "Dies sind die Nutzungsbedingungen der",
+      "two": "Fliz Pay GmbH\nPestalozzistrasse 88, 10625 Berlin\ninfo@flizpay.de\n(\"FLIZ\") für die Nutzung des FLIZ Plugins und des FLIZ Firmenkontos."
+    }
+  },
+  "background": {
+    "title": "1. Hintergrund",
+    "letterText": {
+      "one": "FLIZ ist eine Infrastruktur, die es Unternehmen ermöglicht, Zahlungen anzunehmen, die Endkunden über die FLIZ App direkt auf ihrem Bankkonto auslösen.",
+      "two": "Der Vertrag über die Erbringung der Waren und Dienstleistungen (\"Kaufvertrag\") wird insoweit ausschließlich zwischen dem Käufer und dem jeweiligen Unternehmen / der jeweiligen Organisation geschlossen. Die Zahlung der Gegenleistung für den Kaufvertrag zwischen dem Käufer und dem Unternehmen (\"Kaufpreis\") erfolgt durch eine Überweisung, die durch Open Banking ausgelöst wird. Gleiches gilt für Spenden.",
+      "three": "Diese Nutzungsbedingungen stellen die allgemeinen Bedingungen für die Nutzung von FLIZ durch Unternehmen dar. Von diesen Nutzungsbedingungen abweichende Regelungen, insbesondere die AGB des Unternehmens / der Organisation, gelten nur dann als zwischen FLIZ und dem Unternehmen / der Organisation vereinbart, wenn sie von FLIZ schriftlich bestätigt wurden."
+    }
+  },
+  "contract": {
+    "title": "2. Vertragsgegenstand und Vertragsabschluss",
+    "letterText": {
+      "one": "FLIZ stellt Unternehmen das FLIZ-Plugin und das FLIZ-Firmenkonto nach Maßgabe der folgenden Bestimmungen für die Dauer dieser Nutzungsbedingungen zur Verfügung. Die Leistungen von FLIZ sind auf der Website flizpay.de beschrieben.",
+      "two": "Die folgenden Schritte führen zum Abschluss dieser Nutzungsbedingungen:"
+    },
+    "numberText": {
+      "one": "Mit der Übermittlung seiner E-Mail-Adresse zur Registrierung gibt das Unternehmen / die Organisation ein verbindliches Angebot zum Abschluss dieser Nutzungsbedingungen ab.",
+      "two": "Zu Beginn des Registrierungsprozesses erhält das Unternehmen / die Organisation einen Bestätigungscode per Mail, mit dem es / sie die E-Mail-Adresse bestätigt. Mit diesem schaltet es / sie den Zugang zum FLIZ Firmenkonto frei. Um das Plugin/die Integration freizuschalten, muss das Unternehmen / die Organisation im FLIZ-Firmenkonto im Bereich Integration seine IT-Plattform oder Custom API auswählen. Mit der Freischaltung der FLIZ-Dienste durch FLIZ kommt diese Nutzungsvereinbarung zustande."
+    },
+    "bottomLetterText": {
+      "one": "Diese Nutzungsbedingungen stehen dem Unternehmen / der Organisation zum Zeitpunkt des jeweiligen Vertragsschlusses zum Abruf und zur Speicherung zur Verfügung und werden für das Unternehmen / die Organisation nach der Registrierung im FLIZ-Firmenkonto vorgehalten. Diese Nutzungsbedingungen sind in deutscher Sprache verfügbar."
+    }
+  },
+  "contractualPartner": {
+    "title": "3. Vertragspartner",
+    "letterText": {
+      "one": "Diese Nutzungsbedingungen regeln ausschließlich das Leistungsverhältnis zwischen dem Unternehmen / der Organisation und FLIZ.",
+      "two": "Diese Nutzungsbedingungen und ihre Ausführung begründen kein Vertragsverhältnis zwischen Käufern und FLIZ."
+    }
+  },
+  "serviceDescription": {
+    "title": "4. Dienstleistungsbeschreibung",
+    "letterText": {
+      "one": "FLIZ stellt dem Unternehmen / der Organisation für die Dauer dieser Nutzungsbedingungen das FLIZ-Plugin zur Nutzung über das Internet zur Verfügung. Das FLIZ-Plugin ist eine technische Schnittstelle, die den Datentransfer zwischen Bankkonnektivitätsanbieter und dem Unternehmen / der Organisation ermöglicht. Das FLIZ-Firmenkonto verfügt darüber hinaus über weitere Funktionalitäten zur Verwaltung und Überwachung aller laufenden Transaktionen. Die FLIZ-Dienste sind auf der Website flizpay.de beschrieben. Das FLIZ-Firmenkonto kann über einen Standard-Webbrowser genutzt werden. Derzeit sind die FLIZ-Dienste für die folgenden Webbrowser optimiert: Google Chrome v16 oder höher.",
+      "two": "FLIZ schuldet nur eine ordnungsgemäße und bedarfsgerechte Anbindung der FLIZ-Services an das Internet, nicht aber die Herstellung und Aufrechterhaltung der Internet-Datenverbindung zwischen den IT-Systemen des Unternehmens / der Organisation und FLIZ.",
+      "three": "Die durchschnittliche Verfügbarkeit der Funktionalitäten der \"FLIZ Services\" beträgt 99,5 % bezogen auf ein Kalenderjahr. Die Funktionalitäten des FLIZ-Firmenkontos gelten als verfügbar, wenn die Systeme von FLIZ, die die Funktionalitäten bereitstellen, über einen Zugangsknoten an das Internet angeschlossen sind und mit einem dem Stand der Technik entsprechenden Endgerät und Internetzugang über das Internet genutzt werden können. Bei der Ermittlung der Verfügbarkeit bleiben die in den Ziffern 4.d. bis 4.g. genannten Zeiten unberücksichtigt.",
+      "four": "Um die Qualität und Weiterentwicklung der FLIZ-Dienste zu gewährleisten, kann FLIZ Wartungsfenster ankündigen, in denen die Bereitstellung der Funktionalitäten nicht möglich ist. Diese Zeit wird bei der Berechnung der Verfügbarkeit nicht berücksichtigt. Soweit möglich, wird FLIZ Wartungsfenster in Zeiten geringer Auslastung einplanen. Wartungsfenster werden dem Unternehmen / der Organisation per E-Mail an die vom Nutzer bei der Registrierung angegebene E-Mail-Adresse und mit angemessener Vorlaufzeit angekündigt.",
+      "five": "Bei der Berechnung der Verfügbarkeit werden auch Zeiten nicht berücksichtigt, in denen die FLIZ-Dienste aufgrund dringender Anpassungen oder Aktualisierungen der für die FLIZ-Dienste genutzten IT-Infrastruktur nicht verfügbar sind, um Sicherheitslücken, akut instabile Software/Hardware oder unmittelbare Gefahren wie laufende Angriffe zu beheben. In diesen Fällen kann FLIZ auch außerplanmäßige und unangekündigte Wartungszeiten einplanen. FLIZ wird sich jedoch bemühen, das Unternehmen / die Organisation unverzüglich zu benachrichtigen und ihn über den Stand der Bearbeitung per E-Mail an die vom Unternehmen / von der Organisation bei der Registrierung angegebene E-Mail-Adresse zu informieren.",
+      "six": "Bei der Berechnung der Verfügbarkeit werden Zeiten, in denen die FLIZ-Dienste aufgrund von technischen oder sonstigen Problemen, die nicht im Einflussbereich von FLIZ liegen (höhere Gewalt, Verschulden Dritter, Ursachen im Einflussbereich des Unternehmens / der Organisation (z.B. Fehler des Endgerätes, etc.) nicht zugänglich sind, nicht berücksichtigt.",
+      "seven": "Der FLIZ-Support ist für Fragen und Reklamationen des Unternehmens / der Organisation von Montag bis Freitag von 8:30 Uhr bis 17:00 Uhr telefonisch erreichbar: [+49 15141823052] und per E-Mail unter info@flizpay.de zur Verfügung."
+    }
+  },
+  "obligations": {
+    "title": "5. Pflichten des Unternehmens / der Organisation",
+    "letterText": {
+      "one": "Das Unternehmen / die Organisation verpflichtet sich:"
+    },
+    "numberText": {
+      "one": ", dass das Angebot der Waren und Dienstleistungen nach der jeweils auf den beabsichtigten Vertrag anwendbaren Rechtsordnung nicht gegengesetzliche Vorschriften, behördliche Anordnungen oder die guten Sitten verstößt, insbesondere dass das Angebot oder der Verkauf nicht gegen Rechte Dritter, insbesondere Urheber- oder Markenrechte Dritter, verstößt;",
+      "two": ", dass im Hinblick auf die von ihm / ihr übermittelten Daten die einschlägigen datenschutzrechtlichen Bestimmungen eingehalten werden;",
+      "three": "Funktionsausfälle, Störungen oder Beeinträchtigungen des Betriebs und der Abrufbarkeit des FLIZ-Firmenkontos unverzüglich und so genau wie möglich mitzuteilen. Unterlässt das Unternehmen / die Organisation diese Mitwirkung, so gilt § 536c BGB entsprechend.",
+      "four": "die ihm / ihr zur Verfügung gestellten Zugangsdaten geheim zu halten und dafür zu sorgen, dass seine / ihre Mitarbeiter, denen Zugangsdaten zur Verfügung gestellt werden, dies ebenfalls tun;",
+      "five": "während der gesamten Vertragslaufzeit die erforderlichen Datensicherungen einzurichten und zu unterhalten;",
+      "six": "alles zu unterlassen, was das Funktionieren der FLIZ-Dienste gefährdet oder stört, sowie auf Daten zuzugreifen, zu denen er nicht berechtigt ist. Ferner hat das Unternehmen / die Organisation sicherzustellen, dass seine / ihre über FLIZ übermittelten Informationen und Daten nicht mit Viren oder Trojanern infiziert sind."
+    }
+  },
+  "changes": {
+    "title": "6. Änderungen",
+    "letterText": {
+      "one": "FLIZ kann jederzeit einseitig Änderungen an diesen Nutzungsbedingungen und den FLIZ-Services vornehmen, vorbehaltlich dieses Abschnitts 8.a. FLIZ wird das Unternehmen / die Organisation über alle Änderungen auf einem dauerhaften Datenträger innerhalb einer der Auswirkung der Änderung angemessenen Frist, die niemals weniger als 15 Tage betragen darf, vor deren Inkrafttreten informieren. Die Zustimmung des Unternehmens / der Organisation zu einer solchen Änderung gilt als erteilt, wenn das Unternehmen / die Organisation diese Nutzungsvereinbarung nicht bis zum Ablauf der gesetzten Frist kündigt. Die Frist ist gewahrt, wenn das Unternehmen / der Organisation die Kündigung vor dem Zeitpunkt des Wirksamwerdens der Änderungen an FLIZ absendet. Das Unternehmen / die Organisation kann auch jederzeit nach Erhalt der Änderungsmitteilung entweder durch eine schriftliche Erklärung oder eine eindeutige bestätigende Handlung auf die gesetzte Frist verzichten, d.h. die Änderung annehmen. FLIZ wird in der Änderungsmitteilung auf die Wirkung der Zustimmung und das Kündigungsrecht besonders hinweisen.",
+      "two": "Die in Klausel 7.a. genannte Frist gilt nicht, wenn FLIZ"
+    },
+    "numberText": {
+      "one": "aufgrund gesetzlicher oder behördlich angeordneter Verpflichtungen Änderungen an den Nutzungsbedingungen in einer Weise vornehmen muss, die es FLIZ nicht erlaubt, die in Klausel 8.a. genannte Frist einzuhalten;",
+      "two": "unter außergewöhnlichen Umständen seine Nutzungsbedingungen ändern muss, um einer unvorhergesehenen und unmittelbaren Bedrohung zu begegnen, um die FLIZ Services, Verbraucher oder Unternehmen /Organisationen vor Betrug, Malware, Spam, Datenschutzverletzungen oder anderen Cybersicherheitsrisiken zu schützen.",
+      "three": "Eine Änderung im Sinne von Ziffer 7.a. ist nicht anzunehmen, wenn FLIZ Änderungen an den eigenen IT-Systemen vornimmt, die zur Bereitstellung der Services auf dem FLIZ-Firmenkonto verwendet werden, und/oder einzelne Funktionalitäten anpasst, die keine Auswirkungen auf die Nutzung der FLIZ-Services haben. Solche Anpassungen sind jederzeit und ohne vorherige Ankündigung zulässig."
+    }
+  },
+  "compensationAndBilling": {
+    "title": "7. Vergütung und Abrechnung",
+    "letterText": {
+      "one": "Es gilt, dass Transaktionen kostenfrei sind, sofern nicht eine gesonderte, individualisierte Preisvereinbarung getroffen wurde."
+    }
+  },
+  "rightsOfUse": {
+    "title": "8. Nutzungsrechte",
+    "letterText": {
+      "one": "FLIZ stellt dem Unternehmen / der Organisation die FLIZ-Services während der Nutzung zu dem in diesen Nutzungsbedingungen definierten Vertragszweck zur Verfügung.",
+      "two": "Soweit für vertragliche Zwecke erforderlich, räumt FLIZ dem Unternehmen / der Organisation Nutzungsrechte an der Software des FLIZ-Plugins und des FLIZ-Firmenkontos bzw. dessen Betriebsumgebung ein, wobei FLIZ dem Unternehmen / der Organisation hierfür ein einfaches, nicht übertragbares, auf die Vertragslaufzeit beschränktes Nutzungsrecht einräumt. Gesetzlich zwingende Rechte bleiben hiervon unberührt.",
+      "three": "Dem Unternehmen / der Organisation ist es nicht gestattet, die vertraglichen Leistungen von FLIZ nach diesen Nutzungsbedingungen Dritten zur Verfügung zu stellen, zu lizenzieren, zu vermieten oder zu verpachten."
+    }
+  },
+  "warranty": {
+    "title": "9. Gewährleistung",
+    "letterText": {
+      "one": "Für die Nutzung der Leistungen von FLIZ gelten die gesetzlichen Bestimmungen zur Mängelhaftung bei Mietverträgen. Es gelten auch die Paragraphen 536b BGB (Kenntnis des Mieters vom Mangel bei Vertragsschluss oder Abnahme), 536c BGB (während der Mietzeit auftretende Mängel; Mängelanzeige durch den Mieter).",
+      "two": "Die Anwendung des Paragraph 536a Abs. 2 BGB (Selbstvornahmerecht des Mieters) ist jedoch ausgeschlossen.",
+      "three": "Die Anwendung des § 536a Abs. 1 BGB (Haftung des Vermieters auf Schadensersatz) ist auch insoweit ausgeschlossen, als die Norm eine verschuldensunabhängige Haftung vorsieht."
+    }
+  },
+  "liability": {
+    "title": "10. Haftung",
+    "letterText": {
+      "one": "FLIZ haftet unbeschränkt für Vorsatz und grobe Fahrlässigkeit. Für leichte Fahrlässigkeit haftet FLIZ unbeschränkt nach dem Produkthaftungsgesetz sowie bei Schäden aus der Verletzung des Lebens, des Körpers oder der Gesundheit von Personen.",
+      "two": "Im Übrigen haftet FLIZ bei leichter Fahrlässigkeit nur bei Verletzung einer wesentlichen Vertragspflicht, deren Erfüllung die ordnungsgemäße Durchführung dieses Vertrages überhaupt erst ermöglicht und auf deren Einhaltung das Unternehmen / die Organisation regelmäßig vertrauen darf, und deren Verletzung andererseits die Erreichung des Vertragszwecks gefährdet (Kardinalpflicht). In diesen Fällen ist die Haftung der Höhe nach auf den bei Vertragsschluss vorhersehbaren und vertragstypischen Schaden begrenzt. Diese Haftungsbeschränkung gilt auch zugunsten der von FLIZ eingesetzten Erfüllungsgehilfen.",
+      "three": "Entsteht dem Unternehmen / der Organisation ein Schaden durch den Verlust von Daten, die dem Unternehmen / der Organisation über die FLIZ-Services zum Download zur Verfügung stehen, so haftet FLIZ hierfür nicht, soweit der Schaden durch eine nach dem Stand der Technik mögliche regelmäßige Sicherung der Daten durch das Unternehmen / der Organisation vermieden worden wäre. Das Unternehmen / die Organisation hat eine solche Datensicherung selbst vorzunehmen oder durch einen Dritten vornehmen zu lassen und ist hierfür allein verantwortlich."
+    }
+  },
+  "dataProtection": {
+    "title": "11. Datenschutz",
+    "text": {
+      "one": "FLIZ ist für die Verarbeitung von personenbezogenen Daten im Rahmen dieses Vertrages eigenständig verantwortlich im Sinne der DSGVO. Die Vertragsparteien haben die geltenden datenschutzrechtlichen Bestimmungen einzuhalten."
+    }
+  },
+  "contractTermination": {
+    "title": "12. Vertragslaufzeit, Kündigung",
+    "letterText": {
+      "one": "Der Vertrag wird auf unbestimmte Zeit geschlossen, sofern nicht individuell anders vereinbart. Das Unternehmen / die Organisation hat das Recht, den Vertrag jederzeit ordentlich zu kündigen. Die Kündigung bedarf der Schriftform und ist an FLIZ zu richten. Die Kündigungsfrist beträgt einen Werktag, es sei denn, es wurde individuell eine abweichende Frist vereinbart. Das Recht zur außerordentlichen Kündigung aus wichtigem Grund bleibt unberührt."
+    },
+    "text": {
+      "one": "FLIZ behält sich das Recht vor, den Vertrag mit dem Unternehmen / der Organisation jederzeit ordentlich zu kündigen. Die Kündigung bedarf der Schriftform und ist an das Unternehmen / die Organisation zu richten. FLIZ wird dem Unternehmen / der Organisation eine angemessene Kündigungsfrist einräumen, sofern gesetzlich nicht anders geregelt oder individuell keine abweichende Frist vereinbart wurde. Ein außerordentliches Kündigungsrecht aus wichtigem Grund bleibt unberührt."
+    },
+    "bottomLetterText": {
+      "one": "Ein wichtiger Grund liegt vor, wenn Tatsachen gegeben sind, aufgrund derer der kündigenden Partei unter Berücksichtigung aller Umstände des Einzelfalls und unter Abwägung der Interessen der Vertragsparteien die Fortsetzung des Vertrags nicht zugemutet werden kann.",
+      "two": "Jede Kündigung bedarf zu ihrer Wirksamkeit der Schriftform."
+    }
+  },
+  "finalProvisions": {
+    "title": "13. Schlussbestimmungen",
+    "letterText": {
+      "one": "Allgemeine Geschäftsbedingungen des Unternehmens / der Organisation finden keine Anwendung.",
+      "two": "Eine Abtretung von Rechten und Pflichten aus diesem Vertrag ist nur mit vorheriger schriftlicher Zustimmung von FLIZ zulässig. FLIZ ist berechtigt, Dritte mit der Erfüllung von Verpflichtungen aus diesem Vertrag zu betrauen.",
+      "three": "Darüber hinaus wird FLIZ das Recht eingeräumt, den Namen und das Logo des Partners zu Kommunikationszwecken zu nutzen.",
+      "four": "Mündliche Nebenabreden bestehen nicht. Änderungen und Ergänzungen zu diesen Nutzungsbedingungen bedürfen zu ihrer Wirksamkeit der Textform.",
+      "five": "Sollte eine Bestimmung dieser Nutzungsbedingungen ganz oder teilweise unwirksam sein oder werden, so wird dadurch die Gültigkeit der übrigen Bestimmungen nicht berührt. Die Parteien werden in diesem Fall eine Vereinbarung aushandeln, die dem wirtschaftlichen Zweck der Bestimmung in rechtlich zulässiger Weise am nächsten kommt.",
+      "six": "Diese Nutzungsbedingungen unterliegen dem Recht der Bundesrepublik Deutschland mit Ausnahme der Bestimmungen des internationalen Privatrechts und des UN-Kaufrechts. Gerichtsstand für alle sich aus dem Vertragsverhältnis unmittelbar oder mittelbar ergebenden Streitigkeiten ist der Sitz von FLIZ."
+    }
+  }
+}
