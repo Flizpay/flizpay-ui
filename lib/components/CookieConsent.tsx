@@ -12,9 +12,12 @@ const COOKIE_CONSENT_LOCALIZATION = {
 
 const FADE_IN_DURATION = 700;
 
+/**
+ * Props for the {@link CookieConsent} component.
+ */
 interface CookieConsentProps {
+  language: Language;
   show?: boolean;
-  language?: Language;
   className?: string;
   acceptButtonClassName?: string;
   declineButtonClassName?: string;
@@ -27,6 +30,27 @@ interface CookieConsentProps {
   onResolveCookieConsent?: () => boolean;
 }
 
+/**
+ * Displays a dismissible cookie consent banner.
+ *
+ * The banner fades out once the user accepts or declines the consent
+ * request, or when {@link CookieConsentProps.onResolveCookieConsent}
+ * indicates that consent was already handled.
+ *
+ * @prop `language` - Language for localization (default: `de`).
+ * @prop `show` - Whether to show the banner (default: `true`).
+ * @prop `className` - Additional class names for the banner.
+ * @prop `acceptButtonClassName` - Additional class names for the accept button.
+ * @prop `declineButtonClassName` - Additional class names for the decline button.
+ * @prop `title` - Custom title for the banner.
+ * @prop `description` - Custom description for the banner.
+ * @prop `acceptButtonText` - Custom text for the accept button.
+ * @prop `declineButtonText` - Custom text for the decline button.
+ * @prop `onAccept` - Callback when the user accepts the consent.
+ * @prop `onDecline` - Callback when the user declines the consent.
+ * @prop `onResolveCookieConsent` - Callback to check if consent was already handled.
+ * @returns A cookie consent banner UI component.
+ */
 export function CookieConsent({
   show = true,
   language = "de",
