@@ -1,14 +1,13 @@
 import { cn } from "../utils/cn";
-import * as enPrivacyPolicy from "@locales/en/shared/privacy-policy.json";
-import * as dePrivacyPolicy from "@locales/de/shared/privacy-policy.json";
+import * as enPrivacyPolicy from "@/locales/en/shared/privacy-policy.json";
+import * as dePrivacyPolicy from "@/locales/de/shared/privacy-policy.json";
 import { replaceLinks } from "../utils/links";
+import type { Language } from "@/types";
 
 const DATA = {
   en: enPrivacyPolicy,
   de: dePrivacyPolicy,
 } as const;
-
-type Language = keyof typeof DATA; // "en" | "de"
 
 interface PrivacyPolicyProps {
   language: Language;

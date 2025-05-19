@@ -1,6 +1,6 @@
 import { cn } from "../../utils/cn";
-import * as enShopperTermsAndConditions from "@locales/en/shoppers/terms-and-conditions.json";
-import * as deShopperTermsAndConditions from "@locales/de/shoppers/terms-and-conditions.json";
+import * as enShopperTermsAndConditions from "@/locales/en/shoppers/terms-and-conditions.json";
+import * as deShopperTermsAndConditions from "@/locales/de/shoppers/terms-and-conditions.json";
 
 const DATA = {
   en: enShopperTermsAndConditions,

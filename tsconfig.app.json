@@ -9,7 +9,7 @@
     "allowJs": true,
     "paths": {
       "@flizpay-de/ui": ["./lib/main.ts"],
-      "@locales/*": ["./lib/locales/*"]
+      "@/*": ["./lib/*"]
     },
     "emitDeclarationOnly": false,
     "declaration": true,

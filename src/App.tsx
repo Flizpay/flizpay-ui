@@ -7,6 +7,7 @@ import {
   BusinessTermsAndConditions,
   ShopperTermsAndConditions,
   PrivacyPolicy,
+  CookieConsent,
 } from "@flizpay-de/ui";
 import { cn } from "../lib/utils/cn";
 
@@ -32,8 +33,27 @@ function App() {
     }
   }, []);
 
+  const checkCookieConsent = () => {
+    const cookieConsent = localStorage.getItem("cookie-consent");
+    return cookieConsent === "true";
+  };
+
+  const handleAccept = () => {
+    localStorage.setItem("cookie-consent", "true");
+  };
+
+  const handleDecline = () => {
+    localStorage.setItem("cookie-consent", "false");
+  };
+
   return (
     <div className="container mx-auto p-12 flex flex-col justify-center gap-12">
+      <CookieConsent
+        language="en"
+        onResolveCookieConsent={checkCookieConsent}
+        onAccept={handleAccept}
+        onDecline={handleDecline}
+      />
       <div className="flex items-center gap-12">
         <h1 className="text-3xl font-bold">FLIZpay UI library</h1>
         <div className="flex items-center gap-2">
