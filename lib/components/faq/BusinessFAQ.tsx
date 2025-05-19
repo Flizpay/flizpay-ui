@@ -8,16 +8,16 @@ import {
 import { cn } from "../../utils/cn";
 
 // en
-import * as enSecurityFAQ from "@locales/en/businesses/faq/faq.security.json";
-import * as enPaymentFAQ from "@locales/en/businesses/faq/faq.payment.json";
-import * as enInstructionsFAQ from "@locales/en/businesses/faq/faq.instructions.json";
-import * as enGeneralFAQ from "@locales/en/businesses/faq/faq.general.json";
+import * as enSecurityFAQ from "@/locales/en/businesses/faq/faq.security.json";
+import * as enPaymentFAQ from "@/locales/en/businesses/faq/faq.payment.json";
+import * as enInstructionsFAQ from "@/locales/en/businesses/faq/faq.instructions.json";
+import * as enGeneralFAQ from "@/locales/en/businesses/faq/faq.general.json";
 
 // de
-import * as deSecurityFAQ from "@locales/de/businesses/faq/faq.security.json";
-import * as dePaymentFAQ from "@locales/de/businesses/faq/faq.payment.json";
-import * as deInstructionsFAQ from "@locales/de/businesses/faq/faq.instructions.json";
-import * as deGeneralFAQ from "@locales/de/businesses/faq/faq.general.json";
+import * as deSecurityFAQ from "@/locales/de/businesses/faq/faq.security.json";
+import * as dePaymentFAQ from "@/locales/de/businesses/faq/faq.payment.json";
+import * as deInstructionsFAQ from "@/locales/de/businesses/faq/faq.instructions.json";
+import * as deGeneralFAQ from "@/locales/de/businesses/faq/faq.general.json";
 
 const DATA: Record<string, Record<BusinessTopic, FaqJson>> = {
   en: {
