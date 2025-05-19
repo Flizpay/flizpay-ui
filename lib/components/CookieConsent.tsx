@@ -1,3 +1,5 @@
+"use client";
+
 import { useCallback, useEffect, useState } from "react";
 import { Button } from "@/components/Button";
 import * as enCookieConsent from "@/locales/en/cookie-consent/en.json";
