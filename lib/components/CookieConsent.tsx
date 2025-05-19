@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { Button } from "@/components/Button";
 import * as enCookieConsent from "@/locales/en/cookie-consent/en.json";
 import * as deCookieConsent from "@/locales/de/cookie-consent/de.json";
@@ -10,7 +10,7 @@ const COOKIE_CONSENT_LOCALIZATION = {
   en: enCookieConsent,
 } as const;
 
-const FADE_IN_DURATION = 700;
+const FADE_DURATION = 700;
 
 /**
  * Props for the {@link CookieConsent} component.
@@ -69,38 +69,33 @@ export function CookieConsent({
   const [isHidden, setIsHidden] = useState(false);
   const t = COOKIE_CONSENT_LOCALIZATION[language];
 
+  const fadeOut = useCallback(() => {
+    setIsOpen(false);
+    setTimeout(() => {
+      setIsHidden(true);
+    }, FADE_DURATION);
+  }, []);
+
   useEffect(() => {
     try {
       setIsOpen(true);
 
       if (onResolveCookieConsent?.()) {
-        setIsOpen(false);
-        setTimeout(() => {
-          setIsHidden(true);
-        }, FADE_IN_DURATION);
+        fadeOut();
       }
     } catch (error) {
       console.error("Error checking cookie consent:", error);
-      setIsOpen(false);
-      setTimeout(() => {
-        setIsHidden(true);
-      }, FADE_IN_DURATION);
+      fadeOut();
     }
-  }, [onResolveCookieConsent]);
+  }, [onResolveCookieConsent, fadeOut]);
 
   const accept = () => {
-    setIsOpen(false);
-    setTimeout(() => {
-      setIsHidden(true);
-    }, FADE_IN_DURATION);
+    fadeOut();
     onAccept?.();
   };
 
   const decline = () => {
-    setIsOpen(false);
-    setTimeout(() => {
-      setIsHidden(true);
-    }, FADE_IN_DURATION);
+    fadeOut();
     onDecline?.();
   };
 
@@ -108,6 +103,9 @@ export function CookieConsent({
 
   return (
     <div
+      role="dialog"
+      aria-labelledby="cookie-consent-title"
+      aria-describedby="cookie-consent-description"
       className={cn(
         "fixed z-[200] bottom-0 left-0 right-0 p-4 sm:p-0 sm:left-4 sm:bottom-4 w-full sm:max-w-md duration-700",
         isOpen
@@ -119,12 +117,18 @@ export function CookieConsent({
     >
       <div className="m-0 sm:m-3 dark:bg-gray-500 bg-white border border-gray-200 rounded-lg shadow-lg">
         <div className="flex items-center justify-between p-3">
-          <h1 className="text-base sm:text-lg font-medium">
+          <h1
+            id="cookie-consent-title"
+            className="text-base sm:text-lg font-medium"
+          >
             {title ?? t?.title}
           </h1>
         </div>
         <div className="p-3 -mt-2">
-          <p className="text-xs sm:text-sm text-left text-muted-foreground">
+          <p
+            id="cookie-consent-description"
+            className="text-xs sm:text-sm text-left text-muted-foreground"
+          >
             {description ?? t?.description}
           </p>
         </div>

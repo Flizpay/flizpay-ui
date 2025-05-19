@@ -49,6 +49,7 @@ function App() {
   return (
     <div className="container mx-auto p-12 flex flex-col justify-center gap-12">
       <CookieConsent
+        language="en"
         onResolveCookieConsent={checkCookieConsent}
         onAccept={handleAccept}
         onDecline={handleDecline}

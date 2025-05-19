@@ -67,6 +67,6 @@
     "react-dom": "^18 | ^19",
     "@radix-ui/react-accordion": "^1.2",
     "@radix-ui/react-slot": "^1.2",
-    "lucide-react": "^0.503.0"
+    "lucide-react": "^0.503"
   }
 }
